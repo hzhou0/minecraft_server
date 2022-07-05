@@ -1,0 +1,225 @@
+---- Minecraft Crash Report ----
+// I feel sad now :(
+
+Time: 4/13/22, 9:18 PM
+Description: Watching Server
+
+java.lang.Error: Watchdog
+	at java.base@17.0.2/java.lang.invoke.InvokerBytecodeGenerator.emitPushArgument(InvokerBytecodeGenerator.java:1681)
+	at java.base@17.0.2/java.lang.invoke.InvokerBytecodeGenerator.emitPushArguments(InvokerBytecodeGenerator.java:1670)
+	at java.base@17.0.2/java.lang.invoke.InvokerBytecodeGenerator.emitStaticInvoke(InvokerBytecodeGenerator.java:1087)
+	at java.base@17.0.2/java.lang.invoke.InvokerBytecodeGenerator.addMethod(InvokerBytecodeGenerator.java:902)
+	at java.base@17.0.2/java.lang.invoke.InvokerBytecodeGenerator.generateCustomizedCodeBytes(InvokerBytecodeGenerator.java:793)
+	at java.base@17.0.2/java.lang.invoke.InvokerBytecodeGenerator.generateCustomizedCode(InvokerBytecodeGenerator.java:751)
+	at java.base@17.0.2/java.lang.invoke.LambdaForm.compileToBytecode(LambdaForm.java:854)
+	at java.base@17.0.2/java.lang.invoke.LambdaForm.prepare(LambdaForm.java:812)
+	at java.base@17.0.2/java.lang.invoke.MethodHandle.<init>(MethodHandle.java:481)
+	at java.base@17.0.2/java.lang.invoke.BoundMethodHandle.<init>(BoundMethodHandle.java:56)
+	at java.base@17.0.2/java.lang.invoke.BoundMethodHandle$Species_LLLLL.<init>(java/lang/invoke/BoundMethodHandle$Species_LLLLL)
+	at java.base@17.0.2/java.lang.invoke.BoundMethodHandle$Species_LLLLL.make(java/lang/invoke/BoundMethodHandle$Species_LLLLL)
+	at java.base@17.0.2/java.lang.invoke.DirectMethodHandle$Holder.invokeStatic(DirectMethodHandle$Holder)
+	at java.base@17.0.2/java.lang.invoke.BoundMethodHandle$Species_LLLL.copyWithExtendL(java/lang/invoke/BoundMethodHandle$Species_LLLL)
+	at java.base@17.0.2/java.lang.invoke.MethodHandles.argumentsWithCombiner(MethodHandles.java:6151)
+	at java.base@17.0.2/java.lang.invoke.MethodHandles.filterArgumentsWithCombiner(MethodHandles.java:6108)
+	at java.base@17.0.2/java.lang.invoke.StringConcatFactory.generateMHInlineCopy(StringConcatFactory.java:597)
+	at java.base@17.0.2/java.lang.invoke.StringConcatFactory.makeConcatWithConstants(StringConcatFactory.java:358)
+	at java.base@17.0.2/java.lang.invoke.DirectMethodHandle$Holder.invokeStatic(DirectMethodHandle$Holder)
+	at java.base@17.0.2/java.lang.invoke.DelegatingMethodHandle$Holder.delegate(DelegatingMethodHandle$Holder)
+	at java.base@17.0.2/java.lang.invoke.Invokers$Holder.invokeExact_MT(Invokers$Holder)
+	at java.base@17.0.2/java.lang.invoke.BootstrapMethodInvoker.invoke(BootstrapMethodInvoker.java:102)
+	at java.base@17.0.2/java.lang.invoke.CallSite.makeSite(CallSite.java:315)
+	at java.base@17.0.2/java.lang.invoke.MethodHandleNatives.linkCallSiteImpl(MethodHandleNatives.java:281)
+	at java.base@17.0.2/java.lang.invoke.MethodHandleNatives.linkCallSite(MethodHandleNatives.java:271)
+	at aeq.e(SourceFile:140)
+	at aeq.a(SourceFile:135)
+	at pw.m(SourceFile:424)
+	at aen.c(SourceFile:196)
+	at net.minecraft.server.MinecraftServer.b(SourceFile:918)
+	at acx.b(SourceFile:322)
+	at net.minecraft.server.MinecraftServer.a(SourceFile:851)
+	at net.minecraft.server.MinecraftServer.w(SourceFile:697)
+	at net.minecraft.server.MinecraftServer.a(SourceFile:273)
+	at net.minecraft.server.MinecraftServer$$Lambda$4269/0x0000000801427820.run(Unknown Source)
+	at java.base@17.0.2/java.lang.Thread.run(Thread.java:833)
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- Head --
+Thread: Server Watchdog
+Stacktrace:
+	at java.base@17.0.2/java.lang.invoke.InvokerBytecodeGenerator.emitPushArgument(InvokerBytecodeGenerator.java:1681)
+	at java.base@17.0.2/java.lang.invoke.InvokerBytecodeGenerator.emitPushArguments(InvokerBytecodeGenerator.java:1670)
+	at java.base@17.0.2/java.lang.invoke.InvokerBytecodeGenerator.emitStaticInvoke(InvokerBytecodeGenerator.java:1087)
+	at java.base@17.0.2/java.lang.invoke.InvokerBytecodeGenerator.addMethod(InvokerBytecodeGenerator.java:902)
+	at java.base@17.0.2/java.lang.invoke.InvokerBytecodeGenerator.generateCustomizedCodeBytes(InvokerBytecodeGenerator.java:793)
+	at java.base@17.0.2/java.lang.invoke.InvokerBytecodeGenerator.generateCustomizedCode(InvokerBytecodeGenerator.java:751)
+	at java.base@17.0.2/java.lang.invoke.LambdaForm.compileToBytecode(LambdaForm.java:854)
+	at java.base@17.0.2/java.lang.invoke.LambdaForm.prepare(LambdaForm.java:812)
+	at java.base@17.0.2/java.lang.invoke.MethodHandle.<init>(MethodHandle.java:481)
+	at java.base@17.0.2/java.lang.invoke.BoundMethodHandle.<init>(BoundMethodHandle.java:56)
+	at java.base@17.0.2/java.lang.invoke.BoundMethodHandle$Species_LLLLL.<init>(java/lang/invoke/BoundMethodHandle$Species_LLLLL)
+	at java.base@17.0.2/java.lang.invoke.BoundMethodHandle$Species_LLLLL.make(java/lang/invoke/BoundMethodHandle$Species_LLLLL)
+	at java.base@17.0.2/java.lang.invoke.DirectMethodHandle$Holder.invokeStatic(DirectMethodHandle$Holder)
+	at java.base@17.0.2/java.lang.invoke.BoundMethodHandle$Species_LLLL.copyWithExtendL(java/lang/invoke/BoundMethodHandle$Species_LLLL)
+	at java.base@17.0.2/java.lang.invoke.MethodHandles.argumentsWithCombiner(MethodHandles.java:6151)
+	at java.base@17.0.2/java.lang.invoke.MethodHandles.filterArgumentsWithCombiner(MethodHandles.java:6108)
+	at java.base@17.0.2/java.lang.invoke.StringConcatFactory.generateMHInlineCopy(StringConcatFactory.java:597)
+	at java.base@17.0.2/java.lang.invoke.StringConcatFactory.makeConcatWithConstants(StringConcatFactory.java:358)
+	at java.base@17.0.2/java.lang.invoke.DirectMethodHandle$Holder.invokeStatic(DirectMethodHandle$Holder)
+	at java.base@17.0.2/java.lang.invoke.DelegatingMethodHandle$Holder.delegate(DelegatingMethodHandle$Holder)
+	at java.base@17.0.2/java.lang.invoke.Invokers$Holder.invokeExact_MT(Invokers$Holder)
+	at java.base@17.0.2/java.lang.invoke.BootstrapMethodInvoker.invoke(BootstrapMethodInvoker.java:102)
+	at java.base@17.0.2/java.lang.invoke.CallSite.makeSite(CallSite.java:315)
+	at java.base@17.0.2/java.lang.invoke.MethodHandleNatives.linkCallSiteImpl(MethodHandleNatives.java:281)
+	at java.base@17.0.2/java.lang.invoke.MethodHandleNatives.linkCallSite(MethodHandleNatives.java:271)
+	at aeq.e(SourceFile:140)
+	at aeq.a(SourceFile:135)
+	at pw.m(SourceFile:424)
+	at aen.c(SourceFile:196)
+	at net.minecraft.server.MinecraftServer.b(SourceFile:918)
+	at acx.b(SourceFile:322)
+	at net.minecraft.server.MinecraftServer.a(SourceFile:851)
+	at net.minecraft.server.MinecraftServer.w(SourceFile:697)
+	at net.minecraft.server.MinecraftServer.a(SourceFile:273)
+
+-- Thread Dump --
+Details:
+	Threads: "Reference Handler" daemon prio=10 Id=2 RUNNABLE
+	at java.base@17.0.2/java.lang.ref.Reference.waitForReferencePendingList(Native Method)
+	at java.base@17.0.2/java.lang.ref.Reference.processPendingReferences(Reference.java:253)
+	at java.base@17.0.2/java.lang.ref.Reference$ReferenceHandler.run(Reference.java:215)
+
+
+"Finalizer" daemon prio=8 Id=3 WAITING on java.lang.ref.ReferenceQueue$Lock@4bbac334
+	at java.base@17.0.2/java.lang.Object.wait(Native Method)
+	-  waiting on java.lang.ref.ReferenceQueue$Lock@4bbac334
+	at java.base@17.0.2/java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:155)
+	at java.base@17.0.2/java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:176)
+	at java.base@17.0.2/java.lang.ref.Finalizer$FinalizerThread.run(Finalizer.java:172)
+
+
+"Signal Dispatcher" daemon prio=9 Id=4 RUNNABLE
+
+
+"Notification Thread" daemon prio=9 Id=10 RUNNABLE
+
+
+"Common-Cleaner" daemon prio=8 Id=11 TIMED_WAITING on java.lang.ref.ReferenceQueue$Lock@457d2433
+	at java.base@17.0.2/java.lang.Object.wait(Native Method)
+	-  waiting on java.lang.ref.ReferenceQueue$Lock@457d2433
+	at java.base@17.0.2/java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:155)
+	at java.base@17.0.2/jdk.internal.ref.CleanerImpl.run(CleanerImpl.java:140)
+	at java.base@17.0.2/java.lang.Thread.run(Thread.java:833)
+	at java.base@17.0.2/jdk.internal.misc.InnocuousThread.run(InnocuousThread.java:162)
+
+
+"DestroyJavaVM" prio=5 Id=13 RUNNABLE
+
+
+"Timer hack thread" daemon prio=5 Id=20 TIMED_WAITING
+	at java.base@17.0.2/java.lang.Thread.sleep(Native Method)
+	at ad$8.run(SourceFile:784)
+
+
+"Server thread" prio=5 Id=22 RUNNABLE
+	at java.base@17.0.2/java.lang.invoke.InvokerBytecodeGenerator.emitPushArgument(InvokerBytecodeGenerator.java:1681)
+	at java.base@17.0.2/java.lang.invoke.InvokerBytecodeGenerator.emitPushArguments(InvokerBytecodeGenerator.java:1670)
+	at java.base@17.0.2/java.lang.invoke.InvokerBytecodeGenerator.emitStaticInvoke(InvokerBytecodeGenerator.java:1087)
+	at java.base@17.0.2/java.lang.invoke.InvokerBytecodeGenerator.addMethod(InvokerBytecodeGenerator.java:902)
+	at java.base@17.0.2/java.lang.invoke.InvokerBytecodeGenerator.generateCustomizedCodeBytes(InvokerBytecodeGenerator.java:793)
+	at java.base@17.0.2/java.lang.invoke.InvokerBytecodeGenerator.generateCustomizedCode(InvokerBytecodeGenerator.java:751)
+	at java.base@17.0.2/java.lang.invoke.LambdaForm.compileToBytecode(LambdaForm.java:854)
+	at java.base@17.0.2/java.lang.invoke.LambdaForm.prepare(LambdaForm.java:812)
+	...
+
+
+"Server console handler" daemon prio=5 Id=24 RUNNABLE (in native)
+	at java.base@17.0.2/java.io.FileInputStream.readBytes(Native Method)
+	at java.base@17.0.2/java.io.FileInputStream.read(FileInputStream.java:276)
+	at java.base@17.0.2/java.io.BufferedInputStream.read1(BufferedInputStream.java:282)
+	at java.base@17.0.2/java.io.BufferedInputStream.read(BufferedInputStream.java:343)
+	-  locked java.io.BufferedInputStream@4402e08
+	at java.base@17.0.2/sun.nio.cs.StreamDecoder.readBytes(StreamDecoder.java:270)
+	at java.base@17.0.2/sun.nio.cs.StreamDecoder.implRead(StreamDecoder.java:313)
+	at java.base@17.0.2/sun.nio.cs.StreamDecoder.read(StreamDecoder.java:188)
+	-  locked java.io.InputStreamReader@19feeed7
+	at java.base@17.0.2/java.io.InputStreamReader.read(InputStreamReader.java:177)
+	...
+
+
+"Netty Epoll Server IO #0" daemon prio=5 Id=25 RUNNABLE
+	at io.netty.channel.epoll.Native.epollWait(Native Method)
+	at io.netty.channel.epoll.Native.epollWait(Native.java:192)
+	at io.netty.channel.epoll.Native.epollWait(Native.java:185)
+	at io.netty.channel.epoll.EpollEventLoop.epollWaitNoTimerChange(EpollEventLoop.java:290)
+	at io.netty.channel.epoll.EpollEventLoop.run(EpollEventLoop.java:347)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:986)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at java.base@17.0.2/java.lang.Thread.run(Thread.java:833)
+
+
+"Server Watchdog" daemon prio=5 Id=28 RUNNABLE
+	at java.management@17.0.2/sun.management.ThreadImpl.dumpThreads0(Native Method)
+	at java.management@17.0.2/sun.management.ThreadImpl.dumpAllThreads(ThreadImpl.java:521)
+	at java.management@17.0.2/sun.management.ThreadImpl.dumpAllThreads(ThreadImpl.java:509)
+	at ada.run(SourceFile:49)
+	at java.base@17.0.2/java.lang.Thread.run(Thread.java:833)
+
+
+"Netty Epoll Server IO #1" daemon prio=5 Id=29 RUNNABLE (in native)
+	at io.netty.channel.epoll.Native.epollWait0(Native Method)
+	at io.netty.channel.epoll.Native.epollWait(Native.java:176)
+	at io.netty.channel.epoll.EpollEventLoop.epollWait(EpollEventLoop.java:281)
+	at io.netty.channel.epoll.EpollEventLoop.run(EpollEventLoop.java:351)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:986)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at java.base@17.0.2/java.lang.Thread.run(Thread.java:833)
+
+
+
+Stacktrace:
+	at ada.run(SourceFile:65)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+
+-- Performance stats --
+Details:
+	Random tick rate: 3
+	Level stats: ResourceKey[minecraft:dimension / minecraft:overworld]: players: 0, entities: 150,150,85,529,529,0,0 [minecraft:item:21,minecraft:chicken:16,minecraft:creeper:15,minecraft:wolf:13,minecraft:zombie:12], block_entities: 58 [minecraft:mob_spawner:47,minecraft:furnace:6,minecraft:beehive:3,minecraft:campfire:2], block_ticks: 14, fluid_ticks: 11, chunk_source: Chunks[S] W: 2209 E: 150,150,85,529,529,0,0,
+ResourceKey[minecraft:dimension / minecraft:the_nether]: players: 0, entities: 0,0,0,0,0,0,0 [], block_entities: 0 [], block_ticks: 0, fluid_ticks: 0, chunk_source: Chunks[S] W: 0 E: 0,0,0,0,0,0,0,
+ResourceKey[minecraft:dimension / minecraft:the_end]: players: 0, entities: 0,0,0,0,0,0,0 [], block_entities: 0 [], block_ticks: 0, fluid_ticks: 0, chunk_source: Chunks[S] W: 0 E: 0,0,0,0,0,0,0
+
+-- System Details --
+Details:
+	Minecraft Version: 1.18.2
+	Minecraft Version ID: 1.18.2
+	Operating System: Linux (amd64) version 5.13.0-1021-azure
+	Java Version: 17.0.2, Private Build
+	Java VM Version: OpenJDK 64-Bit Server VM (mixed mode, sharing), Private Build
+	Memory: 325618728 bytes (310 MiB) / 1037959168 bytes (989 MiB) up to 1037959168 bytes (989 MiB)
+	CPUs: 1
+	Processor Vendor: GenuineIntel
+	Processor Name: Intel(R) Xeon(R) Platinum 8272CL CPU @ 2.60GHz
+	Identifier: Intel64 Family 6 Model 85 Stepping 7
+	Microarchitecture: Cascade Lake
+	Frequency (GHz): 2.60
+	Number of physical packages: 1
+	Number of physical CPUs: 1
+	Number of logical CPUs: 1
+	Graphics card #0 name: unknown
+	Graphics card #0 vendor: unknown
+	Graphics card #0 VRAM (MB): 0.00
+	Graphics card #0 deviceId: unknown
+	Graphics card #0 versionInfo: unknown
+	Virtual memory max (MB): 957.52
+	Virtual memory used (MB): 1726.39
+	Swap memory total (MB): 0.00
+	Swap memory used (MB): 0.00
+	JVM Flags: 2 total; -Xmx1024M -Xms1024M
+	Server Running: true
+	Player Count: 1 / 20; [adx['LuckMaster123'/25571, l='ServerLevel[world]', x=-85.04, y=67.00, z=20.95]]
+	Data Packs: vanilla
+	World Generation: Stable
+	Is Modded: Probably not. Server jar signature and brand is untouched
+	Type: Dedicated Server (map_server.txt)

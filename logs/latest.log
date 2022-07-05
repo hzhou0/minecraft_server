@@ -1,0 +1,6 @@
+[06:38:44] [User Authenticator #48/INFO]: Disconnecting /77.247.181.211:39271: Failed to verify username!
+[06:38:44] [Server thread/INFO]: /77.247.181.211:39271 lost connection: Disconnected
+[06:38:44] [User Authenticator #48/ERROR]: Username 'Texas_Mercenaire' tried to join with an invalid session
+[14:06:59] [User Authenticator #49/INFO]: Disconnecting /77.247.181.214:33945: Failed to verify username!
+[14:06:59] [User Authenticator #49/ERROR]: Username 'R4cso' tried to join with an invalid session
+[14:06:59] [Server thread/INFO]: /77.247.181.214:33945 lost connection: Failed to verify username!

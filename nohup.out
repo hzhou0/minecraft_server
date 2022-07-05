@@ -1,0 +1,1889 @@
+Starting net.minecraft.server.Main
+[21:29:58] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[21:30:02] [ServerMain/WARN]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[21:30:02] [ServerMain/WARN]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
+[21:30:02] [ServerMain/WARN]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[21:30:02] [ServerMain/WARN]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[21:30:02] [ServerMain/WARN]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[21:30:05] [Worker-Main-2/INFO]: Loaded 7 recipes
+[21:30:05] [Worker-Main-2/INFO]: Loaded 1141 advancements
+[21:30:08] [Server thread/INFO]: Starting minecraft server version 1.18.2
+[21:30:08] [Server thread/INFO]: Loading properties
+[21:30:08] [Server thread/INFO]: Default game type: SURVIVAL
+[21:30:08] [Server thread/INFO]: Generating keypair
+[21:30:09] [Server console handler/ERROR]: Exception handling console input
+java.io.IOException: Bad file descriptor
+	at java.io.FileInputStream.readBytes(Native Method) ~[?:?]
+	at java.io.FileInputStream.read(FileInputStream.java:276) ~[?:?]
+	at java.io.BufferedInputStream.read1(BufferedInputStream.java:282) ~[?:?]
+	at java.io.BufferedInputStream.read(BufferedInputStream.java:343) ~[?:?]
+	at sun.nio.cs.StreamDecoder.readBytes(StreamDecoder.java:270) ~[?:?]
+	at sun.nio.cs.StreamDecoder.implRead(StreamDecoder.java:313) ~[?:?]
+	at sun.nio.cs.StreamDecoder.read(StreamDecoder.java:188) ~[?:?]
+	at java.io.InputStreamReader.read(InputStreamReader.java:177) ~[?:?]
+	at java.io.BufferedReader.fill(BufferedReader.java:162) ~[?:?]
+	at java.io.BufferedReader.readLine(BufferedReader.java:329) ~[?:?]
+	at java.io.BufferedReader.readLine(BufferedReader.java:396) ~[?:?]
+	at acx$1.run(SourceFile:99) [server-1.18.2.jar:?]
+[21:30:09] [Server thread/INFO]: Starting Minecraft server on *:25565
+[21:30:09] [Server thread/INFO]: Using epoll channel type
+[21:30:10] [Server thread/INFO]: Preparing level "world"
+[21:30:19] [User Authenticator #1/INFO]: UUID of player Never_Lucky123 is fdeaf439-d900-47e4-8e38-2d67e341266d
+[21:30:22] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[21:30:25] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[21:30:25] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[21:30:25] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[21:30:25] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[21:30:25] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[21:30:25] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[21:30:25] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[21:30:25] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[21:30:26] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[21:30:26] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[21:30:27] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[21:30:27] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[21:30:28] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[21:30:28] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[21:30:29] [Worker-Main-2/INFO]: Preparing spawn area: 1%
+[21:30:29] [Worker-Main-2/INFO]: Preparing spawn area: 1%
+[21:30:30] [Worker-Main-2/INFO]: Preparing spawn area: 1%
+[21:30:30] [Worker-Main-2/INFO]: Preparing spawn area: 1%
+[21:30:31] [Worker-Main-2/INFO]: Preparing spawn area: 3%
+[21:30:31] [Worker-Main-2/INFO]: Preparing spawn area: 6%
+[21:30:32] [Worker-Main-2/INFO]: Preparing spawn area: 9%
+[21:30:32] [Worker-Main-2/INFO]: Preparing spawn area: 16%
+[21:30:33] [Worker-Main-2/INFO]: Preparing spawn area: 16%
+[21:30:33] [Worker-Main-2/INFO]: Preparing spawn area: 26%
+[21:30:34] [Worker-Main-2/INFO]: Preparing spawn area: 26%
+[21:30:34] [Worker-Main-2/INFO]: Preparing spawn area: 27%
+[21:30:36] [Worker-Main-2/INFO]: Preparing spawn area: 27%
+[21:30:36] [Worker-Main-2/INFO]: Preparing spawn area: 27%
+[21:30:36] [Worker-Main-2/INFO]: Preparing spawn area: 27%
+[21:30:36] [Worker-Main-2/INFO]: Preparing spawn area: 28%
+[21:30:37] [Server thread/INFO]: Time elapsed: 15113 ms
+[21:30:37] [Server thread/INFO]: Done (27.196s)! For help, type "help"
+[21:30:37] [Server thread/INFO]: Never_Lucky123[/129.97.131.0:33453] logged in with entity id 120 at (177.12912020661835, 20.0, 68.97550522375097)
+[21:30:37] [Server thread/INFO]: Never_Lucky123 joined the game
+[21:30:39] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2002ms or 40 ticks behind
+[21:30:46] [Server thread/INFO]: Never_Lucky123 lost connection: Disconnected
+[21:30:46] [Server thread/INFO]: Never_Lucky123 left the game
+[22:19:40] [Server thread/INFO]: com.mojang.authlib.GameProfile@79b08f6f[id=<null>,name=LuckMaster123,properties={},legacy=false] (/129.97.125.3:61671) lost connection: Disconnected
+[22:31:03] [User Authenticator #2/INFO]: UUID of player Never_Lucky123 is fdeaf439-d900-47e4-8e38-2d67e341266d
+[22:31:04] [Server thread/INFO]: Never_Lucky123[/129.97.131.0:23363] logged in with entity id 255 at (177.12912020661835, 20.0, 68.97550522375097)
+[22:31:04] [Server thread/INFO]: Never_Lucky123 joined the game
+[22:31:08] [Server thread/INFO]: Never_Lucky123 lost connection: Disconnected
+[22:31:08] [Server thread/INFO]: Never_Lucky123 left the game
+[23:35:39] [User Authenticator #3/INFO]: UUID of player Never_Lucky123 is fdeaf439-d900-47e4-8e38-2d67e341266d
+[23:35:39] [Server thread/INFO]: Never_Lucky123[/129.97.131.0:55030] logged in with entity id 353 at (177.12912020661835, 20.0, 68.97550522375097)
+[23:35:39] [Server thread/INFO]: Never_Lucky123 joined the game
+[23:50:08] [User Authenticator #4/INFO]: UUID of player LuckMaster123 is 87211ff0-269b-4055-9e19-6ebd78327146
+[23:50:08] [Server thread/INFO]: LuckMaster123[/129.97.125.3:62772] logged in with entity id 2708 at (-85.04435052307724, 67.0, 20.94640004118135)
+[23:50:08] [Server thread/INFO]: LuckMaster123 joined the game
+[00:14:54] [Server thread/INFO]: Never_Lucky123 fell from a high place
+[00:15:15] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2379ms or 47 ticks behind
+[00:16:32] [Server thread/INFO]: Villager bnw['Fletcher'/10642, l='ServerLevel[world]', x=590.30, y=66.94, z=205.30] died, message: 'Fletcher was slain by Zombie'
+[00:27:09] [Server thread/WARN]: Never_Lucky123 moved too quickly! -0.6537957418291285,0.12129684053920187,-10.070463829699321
+[00:39:30] [Server thread/INFO]: LuckMaster123 was slain by Zombie
+[00:40:26] [Server thread/INFO]: Never_Lucky123 was shot by Skeleton
+[01:20:57] [Server thread/INFO]: LuckMaster123 lost connection: Disconnected
+[01:20:57] [Server thread/INFO]: LuckMaster123 left the game
+[01:32:44] [Server thread/INFO]: Never_Lucky123 lost connection: Disconnected
+[01:32:44] [Server thread/INFO]: Never_Lucky123 left the game
+[14:21:45] [Server thread/INFO]: com.mojang.authlib.GameProfile@1dbfc354[id=<null>,name=INETDataSurveyUN,properties={},legacy=false] (/163.172.139.143:35432) lost connection: Disconnected
+[19:14:22] [User Authenticator #5/INFO]: UUID of player Never_Lucky123 is fdeaf439-d900-47e4-8e38-2d67e341266d
+[19:14:23] [Server thread/INFO]: Never_Lucky123[/129.97.131.0:55044] logged in with entity id 39357 at (-101.35274099642959, 48.0, -1.551752488230832)
+[19:14:23] [Server thread/INFO]: Never_Lucky123 joined the game
+[19:20:34] [Server thread/INFO]: Never_Lucky123 has made the advancement [The Parrots and the Bats]
+[19:46:03] [Server thread/INFO]: Never_Lucky123 has made the advancement [We Need to Go Deeper]
+[19:46:03] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4067ms or 81 ticks behind
+[19:47:16] [User Authenticator #6/INFO]: UUID of player LuckMaster123 is 87211ff0-269b-4055-9e19-6ebd78327146
+[19:47:16] [Server thread/INFO]: LuckMaster123[/129.97.125.3:52787] logged in with entity id 45776 at (-64.26542040985015, 67.0, 26.106961443413812)
+[19:47:16] [Server thread/INFO]: LuckMaster123 joined the game
+[19:48:03] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 6778ms or 135 ticks behind
+[19:48:03] [Server thread/WARN]: LuckMaster123 moved too quickly! -3.6622783052411734,-0.875,-9.34766540839103
+[19:49:37] [Server thread/INFO]: Never_Lucky123 was slain by Zombified Piglin
+[19:56:00] [Server thread/INFO]: Never_Lucky123 was slain by Zombified Piglin
+[19:56:04] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4552ms or 91 ticks behind
+[19:56:04] [Server thread/WARN]: LuckMaster123 moved too quickly! 2.2355338219533962,0.7531999805212024,-10.040288663755987
+[19:56:44] [Server thread/INFO]: Never_Lucky123 was slain by Zombified Piglin
+[19:57:15] [Server thread/INFO]: LuckMaster123 was slain by Zombified Piglin
+[19:58:10] [Server thread/INFO]: Never_Lucky123 was shot by Skeleton
+[19:58:46] [Server thread/INFO]: LuckMaster123 has made the advancement [We Need to Go Deeper]
+[19:58:50] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2459ms or 49 ticks behind
+[19:59:17] [Server thread/INFO]: Never_Lucky123 was slain by Zombified Piglin
+[19:59:27] [Server thread/INFO]: LuckMaster123 was slain by Zombified Piglin
+[19:59:30] [Server thread/WARN]: Never_Lucky123 moved too quickly! -7.1565374354356095,2.419999986886978,-6.784847422074453
+[19:59:30] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2899ms or 57 ticks behind
+[19:59:54] [Server thread/INFO]: Never_Lucky123 was slain by Zombified Piglin
+[20:00:16] [Server thread/INFO]: Never_Lucky123 was slain by Zombified Piglin
+[20:10:05] [Server thread/INFO]: Never_Lucky123 fell from a high place
+[20:13:03] [Server thread/INFO]: Never_Lucky123 was slain by Hoglin
+[20:14:31] [Server thread/INFO]: Never_Lucky123 was shot by Piglin
+[20:15:43] [Server thread/INFO]: LuckMaster123 was fireballed by Ghast
+[20:15:50] [Server thread/INFO]: Never_Lucky123 was slain by Hoglin
+[20:18:29] [Server thread/INFO]: Never_Lucky123 was slain by Piglin
+[20:20:28] [Server thread/INFO]: Never_Lucky123 was slain by Hoglin
+[20:21:19] [Server thread/INFO]: Never_Lucky123 was slain by Hoglin
+[20:24:07] [Server thread/INFO]: Never_Lucky123 fell from a high place
+[21:00:14] [Server thread/INFO]: Never_Lucky123 has made the advancement [Those Were the Days]
+[21:00:15] [Server thread/INFO]: Never_Lucky123 has made the advancement [War Pigs]
+[21:10:34] [Server thread/INFO]: Villager bnw['Cartographer'/70967, l='ServerLevel[world]', x=588.44, y=66.00, z=201.70] died, message: 'Cartographer was slain by Zombie'
+[21:12:28] [Server thread/INFO]: LuckMaster123 has made the advancement [What a Deal!]
+[21:29:07] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2457ms or 49 ticks behind
+[21:29:47] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2017ms or 40 ticks behind
+[21:55:39] [Server thread/INFO]: LuckMaster123 has made the advancement [Diamonds!]
+[22:15:24] [Server thread/INFO]: LuckMaster123 lost connection: Disconnected
+[22:15:24] [Server thread/INFO]: LuckMaster123 left the game
+[22:15:39] [User Authenticator #7/INFO]: UUID of player LuckMaster123 is 87211ff0-269b-4055-9e19-6ebd78327146
+[22:15:39] [Server thread/INFO]: LuckMaster123[/129.97.125.3:54600] logged in with entity id 86103 at (1302.2851361462615, -53.0, 40.383809827302194)
+[22:15:39] [Server thread/INFO]: LuckMaster123 joined the game
+[22:15:44] [Server thread/INFO]: LuckMaster123 lost connection: Disconnected
+[22:15:44] [Server thread/INFO]: LuckMaster123 left the game
+[22:38:48] [Server thread/INFO]: Never_Lucky123 lost connection: Disconnected
+[22:38:48] [Server thread/INFO]: Never_Lucky123 left the game
+[23:06:33] [User Authenticator #8/INFO]: UUID of player Never_Lucky123 is fdeaf439-d900-47e4-8e38-2d67e341266d
+[23:06:33] [Server thread/INFO]: Never_Lucky123[/129.97.131.0:55068] logged in with entity id 90225 at (1331.101128982462, 66.0, 171.8182268099275)
+[23:06:33] [Server thread/INFO]: Never_Lucky123 joined the game
+[23:07:44] [Server thread/INFO]: Villager bnw['Farmer'/90239, l='ServerLevel[world]', x=1319.30, y=67.00, z=171.30] died, message: 'Farmer was slain by Zombie'
+[23:11:09] [User Authenticator #9/INFO]: UUID of player LuckMaster123 is 87211ff0-269b-4055-9e19-6ebd78327146
+[23:11:09] [Server thread/INFO]: LuckMaster123[/129.97.125.3:14411] logged in with entity id 91255 at (1302.2851361462615, -53.0, 40.383809827302194)
+[23:11:09] [Server thread/INFO]: LuckMaster123 joined the game
+[23:11:21] [Server thread/INFO]: LuckMaster123 lost connection: Disconnected
+[23:11:21] [Server thread/INFO]: LuckMaster123 left the game
+[23:11:38] [User Authenticator #10/INFO]: UUID of player LuckMaster123 is 87211ff0-269b-4055-9e19-6ebd78327146
+[23:11:38] [Server thread/INFO]: LuckMaster123[/129.97.125.3:55375] logged in with entity id 91488 at (1302.2851361462615, -53.0, 40.383809827302194)
+[23:11:38] [Server thread/INFO]: LuckMaster123 joined the game
+[23:11:50] [Server thread/INFO]: LuckMaster123 lost connection: Disconnected
+[23:11:50] [Server thread/INFO]: LuckMaster123 left the game
+[23:14:26] [User Authenticator #11/INFO]: UUID of player LuckMaster123 is 87211ff0-269b-4055-9e19-6ebd78327146
+[23:14:27] [Server thread/INFO]: LuckMaster123[/129.97.125.3:32557] logged in with entity id 92218 at (1302.2851361462615, -53.0, 40.383809827302194)
+[23:14:27] [Server thread/INFO]: LuckMaster123 joined the game
+[23:14:29] [Server thread/WARN]: Never_Lucky123 moved too quickly! 8.733771654890973,0.39974126698069057,4.893421965113726
+[23:14:29] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2889ms or 57 ticks behind
+[23:14:51] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 6467ms or 129 ticks behind
+[23:21:40] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2239ms or 44 ticks behind
+[23:24:53] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2097ms or 41 ticks behind
+[23:26:04] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2131ms or 42 ticks behind
+[23:27:06] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2082ms or 41 ticks behind
+[23:34:01] [Server thread/INFO]: Never_Lucky123 lost connection: Disconnected
+[23:34:01] [Server thread/INFO]: Never_Lucky123 left the game
+[23:35:49] [User Authenticator #12/INFO]: UUID of player Never_Lucky123 is fdeaf439-d900-47e4-8e38-2d67e341266d
+[23:35:49] [Server thread/INFO]: Never_Lucky123[/129.97.131.0:55074] logged in with entity id 98160 at (42.30000001192093, 91.875, 44.742216369052805)
+[23:35:49] [Server thread/INFO]: Never_Lucky123 joined the game
+[23:35:52] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2030ms or 40 ticks behind
+[23:39:54] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2480ms or 49 ticks behind
+[23:43:01] [Server thread/INFO]: Never_Lucky123 has completed the challenge [Return to Sender]
+[23:45:36] [Server thread/INFO]: Never_Lucky123 was fireballed by Ghast
+[23:45:43] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2138ms or 42 ticks behind
+[23:53:25] [Server thread/INFO]: Never_Lucky123 was burnt to a crisp whilst fighting Ghast
+[23:53:32] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2093ms or 41 ticks behind
+[23:53:57] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2066ms or 41 ticks behind
+[23:53:59] [Server thread/INFO]: LuckMaster123 was slain by Piglin
+[23:54:05] [Server thread/INFO]: Never_Lucky123 burned to death
+[23:54:27] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 15326ms or 306 ticks behind
+[23:54:41] [Server thread/WARN]: LuckMaster123 moved too quickly! -4.845906383129659,0.0,8.827815375091944
+[23:54:43] [Server thread/WARN]: LuckMaster123 moved too quickly! -10.374447569182053,0.24813599859093927,-0.011220781819815784
+[23:54:49] [Server thread/WARN]: LuckMaster123 moved too quickly! -10.07718895703772,-0.1647732818260721,2.6820316056071363
+[23:54:55] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 13152ms or 263 ticks behind
+[23:55:00] [Server thread/WARN]: LuckMaster123 moved too quickly! -10.210843153779479,1.0244240882136921,-0.09912516026619755
+[23:55:02] [Server thread/WARN]: LuckMaster123 moved too quickly! -9.981516987673217,0.49520087700592086,2.794074116718434
+[23:55:05] [Server thread/WARN]: LuckMaster123 moved too quickly! -10.122553110129218,0.6754387601295022,0.7019950098453478
+[23:55:12] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2360ms or 47 ticks behind
+[23:55:14] [Server thread/WARN]: LuckMaster123 moved too quickly! -8.39800444935156,-1.0013359791121417,5.731618160376627
+[23:55:17] [Server thread/WARN]: LuckMaster123 moved too quickly! -7.4640493192904955,1.0244240882136921,6.827848092290026
+[23:55:22] [Server thread/WARN]: LuckMaster123 moved too quickly! -7.674521123301645,0.6815583980583213,7.020380249732909
+[23:55:26] [Server thread/WARN]: LuckMaster123 moved too quickly! -8.789125098240106,0.49520087700592086,5.255403856569899
+[23:56:38] [Server thread/WARN]: LuckMaster123 moved too quickly! 8.874947500448059,0.9031272476744903,-4.677100783119187
+[23:56:41] [Server thread/WARN]: LuckMaster123 moved too quickly! 8.115270761361558,0.49520087700592086,-5.961003244605678
+[23:56:44] [Server thread/WARN]: LuckMaster123 moved too quickly! 8.189370729294069,1.0554624345250403,-6.004570623909672
+[23:56:48] [Server thread/WARN]: LuckMaster123 moved too quickly! 5.462630378800213,1.0244240882136921,-8.450005321428762
+[00:01:03] [Server thread/INFO]: LuckMaster123 was slain by Zombie
+[00:01:10] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4820ms or 96 ticks behind
+[00:01:43] [Server thread/INFO]: Villager bnw['Farmer'/106560, l='ServerLevel[world]', x=588.42, y=66.00, z=201.70] died, message: 'Farmer was slain by Zombie'
+[00:09:05] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2013ms or 40 ticks behind
+[00:09:42] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2211ms or 44 ticks behind
+[00:09:55] [Server thread/WARN]: LuckMaster123 moved too quickly! -9.957781254990664,0.2277792520400368,2.2537751795696295
+[00:12:12] [Server thread/WARN]: Never_Lucky123 moved too quickly! -10.013585795236281,0.0,-0.9946238462530061
+[00:12:21] [Server thread/WARN]: Never_Lucky123 moved too quickly! -9.96528493566018,0.5292232112077713,1.6752446589888166
+[00:16:31] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2015ms or 40 ticks behind
+[00:26:36] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2012ms or 40 ticks behind
+[00:48:25] [Server thread/INFO]: LuckMaster123 lost connection: Disconnected
+[00:48:25] [Server thread/INFO]: LuckMaster123 left the game
+[00:51:46] [Server thread/INFO]: Never_Lucky123 lost connection: Disconnected
+[00:51:46] [Server thread/INFO]: Never_Lucky123 left the game
+[15:13:47] [User Authenticator #13/INFO]: UUID of player Never_Lucky123 is fdeaf439-d900-47e4-8e38-2d67e341266d
+[15:13:47] [Server thread/INFO]: Never_Lucky123[/129.97.131.0:55164] logged in with entity id 125256 at (-100.9272182925679, 48.0, -2.0701974384051254)
+[15:13:47] [Server thread/INFO]: Never_Lucky123 joined the game
+[15:33:57] [Server thread/INFO]: Never_Lucky123 has made the advancement [Enchanter]
+[15:39:34] [Server thread/INFO]: Never_Lucky123 was slain by Piglin Brute
+[15:40:39] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2249ms or 44 ticks behind
+[15:45:13] [Server thread/INFO]: Never_Lucky123 was slain by Piglin Brute
+[15:45:33] [Server thread/INFO]: Villager bnw['Villager'/132943, l='ServerLevel[world]', x=1342.15, y=57.00, z=123.99] died, message: 'Villager was slain by Zombie'
+[15:46:44] [Server thread/INFO]: Never_Lucky123 was burnt to a crisp whilst fighting Ghast
+[15:46:53] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2085ms or 41 ticks behind
+[15:49:47] [Server thread/INFO]: Never_Lucky123 has made the advancement [Who is Cutting Onions?]
+[15:52:30] [User Authenticator #14/INFO]: UUID of player LuckMaster123 is 87211ff0-269b-4055-9e19-6ebd78327146
+[15:52:30] [Server thread/INFO]: LuckMaster123[/129.97.125.1:58955] logged in with entity id 134583 at (-70.01849924739494, 64.0, 42.38912035005119)
+[15:52:30] [Server thread/INFO]: LuckMaster123 joined the game
+[16:01:46] [Server thread/INFO]: LuckMaster123 lost connection: Disconnected
+[16:01:46] [Server thread/INFO]: LuckMaster123 left the game
+[16:02:10] [User Authenticator #15/INFO]: UUID of player LuckMaster123 is 87211ff0-269b-4055-9e19-6ebd78327146
+[16:02:10] [Server thread/INFO]: LuckMaster123[/129.97.125.1:1632] logged in with entity id 136767 at (-109.30775440104819, 68.0, 65.00069054471876)
+[16:02:10] [Server thread/INFO]: LuckMaster123 joined the game
+[16:02:31] [Server thread/INFO]: LuckMaster123 lost connection: Disconnected
+[16:02:31] [Server thread/INFO]: LuckMaster123 left the game
+[16:04:11] [User Authenticator #16/INFO]: UUID of player LuckMaster123 is 87211ff0-269b-4055-9e19-6ebd78327146
+[16:04:11] [Server thread/INFO]: LuckMaster123[/129.97.125.1:62655] logged in with entity id 137292 at (-136.69999998807907, 60.0, 101.37725945474564)
+[16:04:11] [Server thread/INFO]: LuckMaster123 joined the game
+[16:04:20] [Server thread/INFO]: LuckMaster123 lost connection: Disconnected
+[16:04:20] [Server thread/INFO]: LuckMaster123 left the game
+[16:06:12] [User Authenticator #17/INFO]: UUID of player LuckMaster123 is 87211ff0-269b-4055-9e19-6ebd78327146
+[16:06:12] [Server thread/INFO]: LuckMaster123[/129.97.125.1:62781] logged in with entity id 138073 at (-136.69999998807907, 60.0, 101.37725945474564)
+[16:06:12] [Server thread/INFO]: LuckMaster123 joined the game
+[16:12:41] [Server thread/INFO]: LuckMaster123 lost connection: Disconnected
+[16:12:41] [Server thread/INFO]: LuckMaster123 left the game
+[16:15:04] [User Authenticator #18/INFO]: UUID of player LuckMaster123 is 87211ff0-269b-4055-9e19-6ebd78327146
+[16:15:04] [Server thread/INFO]: LuckMaster123[/129.97.125.1:49049] logged in with entity id 141131 at (-103.02867114079099, 48.0, -2.699999988079071)
+[16:15:04] [Server thread/INFO]: LuckMaster123 joined the game
+[16:29:49] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved wrongly! 0.2632227636472777
+[16:44:08] [Server thread/INFO]: LuckMaster123 lost connection: Disconnected
+[16:44:08] [Server thread/INFO]: LuckMaster123 left the game
+[16:44:32] [User Authenticator #19/INFO]: UUID of player LuckMaster123 is 87211ff0-269b-4055-9e19-6ebd78327146
+[16:44:32] [Server thread/INFO]: LuckMaster123[/129.97.125.1:29395] logged in with entity id 153007 at (-256.20807892264577, 62.07326432466507, 293.4244040767442)
+[16:44:32] [Server thread/INFO]: LuckMaster123 joined the game
+[16:52:33] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2363ms or 47 ticks behind
+[16:53:03] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2224ms or 44 ticks behind
+[16:53:05] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! -10.034420075152411,0.0,0.1269032427547927
+[16:53:22] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! -7.209752918868844,0.0,7.49182409840148
+[16:53:22] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! -7.469282013384941,0.0,7.794538808327616
+[16:53:22] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! -7.7228869696823494,0.0,8.101606426622652
+[16:53:22] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! -7.9701831642495335,0.0,8.413138728676813
+[16:53:22] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! -8.210912086428266,0.0,8.729156661906813
+[16:53:22] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2408ms or 48 ticks behind
+[16:53:26] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! -4.247082553245036,0.0,9.448581164110237
+[16:53:26] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! -4.354248977657221,0.0,9.830033093471002
+[16:53:26] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! -4.453228136752045,0.0,10.213259767143882
+[16:53:26] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! -4.544099701803475,0.0,10.598123679294986
+[16:53:26] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! -4.627007601371361,0.0,10.984485409831336
+[16:53:26] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! -4.702150082272738,0.0,11.372207507589565
+[16:53:26] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! -4.769770643388142,0.0,11.761157381708585
+[16:53:26] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! -4.8294366534155415,0.0,12.151194365678975
+[16:53:26] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! -4.880182005229699,0.0,12.542118128700167
+[16:53:26] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! -4.921318172386918,0.0,12.933691201026136
+[16:53:26] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! -4.952391852336177,0.0,13.325661549005645
+[16:53:26] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! -4.973142158894802,0.0,13.717777893278367
+[16:53:26] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! -4.983465459182298,0.0,14.109800131214001
+[16:53:26] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! -4.983391022376168,0.0,14.501507398353851
+[16:53:26] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! -4.973051549636352,0.0,14.89270139725295
+[16:53:26] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! -4.952660496467956,0.0,15.283208126838645
+[16:53:26] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! -4.92249548499683,0.0,15.67287889494105
+[16:53:26] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! -4.882883488638527,0.0,16.061590082180714
+[16:53:26] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! -4.834184024468527,0.0,16.449240690568786
+[16:53:26] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! -4.77678507556584,0.0,16.83575297964296
+[16:53:26] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! -4.711088676454551,0.0,17.221068695301824
+[16:53:26] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! -4.637505310487995,0.0,17.60514764270863
+[16:53:26] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! -4.556448961558544,0.0,17.987966044277414
+[16:53:26] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! -4.4683327453864194,0.0,18.369514752661303
+[16:53:26] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! -4.373557986241735,0.0,18.749794412615074
+[16:53:26] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! -4.272522175186623,0.0,19.128818203349738
+[16:53:26] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! -4.165608495106312,0.0,19.506606766664163
+[16:53:26] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! -4.053187051292866,0.0,19.88318796360022
+[16:53:26] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! -3.9356124967551978,0.0,20.258595008854172
+[16:53:26] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! -3.813221941564507,0.0,20.63286470234027
+[16:53:36] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! 7.7220032098209686,0.0,6.522537250172036
+[16:53:36] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! 8.026153673445947,0.0,6.778317171010713
+[16:53:36] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! 8.333079531293947,0.0,7.030840651293374
+[16:53:42] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! 8.295788608361931,0.0,6.213125997513771
+[16:53:42] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! 8.641655113674801,0.0,6.402865381208358
+[16:53:42] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! 8.991182389044752,0.0,6.585337587750928
+[16:53:42] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! 9.344690418015944,0.0,6.75873398627175
+[16:53:42] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! 9.702369106327751,0.0,6.920955681346186
+[16:53:42] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! 10.064186232786142,0.0,7.0696873947459835
+[16:53:42] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! 10.429807328238212,0.0,7.202476109281292
+[16:53:42] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! 10.798529746907207,0.0,7.316807995450972
+[16:53:42] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! 11.169232785382519,0.0,7.41019594405202
+[16:53:42] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! 11.54058505892067,0.0,7.480932111308562
+[16:53:42] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! 11.911183173272661,0.0,7.527968864639547
+[16:53:42] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! 12.279650873251512,0.0,7.550809980290069
+[16:53:42] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! 12.644700046190906,0.0,7.5493999192417505
+[16:53:42] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! 13.005172728100888,0.0,7.524035742560727
+[16:53:42] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! 13.360061147023544,0.0,7.475284927624557
+[16:53:42] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! 13.70851507978216,0.0,7.403916582744046
+[16:53:42] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! 14.049838256447174,0.0,7.310842427424518
+[16:53:42] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! 14.383488369083011,0.0,7.197077232796687
+[16:53:42] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! 14.70906015562639,0.0,7.063695284999653
+[16:53:42] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! 15.026273828024728,0.0,6.911801811853138
+[16:53:42] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! 15.335526278600923,0.0,6.742919202014036
+[16:53:42] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! 15.637779904334252,0.0,6.5588698107759456
+[16:53:42] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! 15.934435558987502,0.0,6.36170566693329
+[16:53:42] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! 16.226673684341677,0.0,6.153233175089781
+[16:53:42] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! 16.515488169883042,0.0,5.935040788700576
+[16:53:42] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! 16.80170746114061,0.0,5.708517480371029
+[16:53:42] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! 17.0860247908023,0.0,5.474880034356033
+[16:53:42] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! 17.36901619270259,0.0,5.2351907850771795
+[16:53:42] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! 9.97961248727745,0.0,-1.2763287774341734
+[16:53:42] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! 10.261157061268591,0.0,-1.5290887690863428
+[16:53:45] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! 9.034486342157152,0.0,-4.303199310309083
+[16:53:45] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! 9.41989742603539,0.0,-4.352854816685863
+[16:53:45] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! 9.806553552329092,0.0,-4.401675307931441
+[16:53:45] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! 10.194282257379768,0.0,-4.450182687520055
+[16:53:45] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! 10.583009341512252,0.0,-4.498110973092139
+[16:53:45] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! 10.972726869706207,0.0,-4.544552217581895
+[16:53:45] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! 11.363434748692725,0.0,-4.588089855007183
+[16:53:45] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! 11.75507050336796,0.0,-4.627599694947776
+[16:53:45] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! 12.147531548627512,0.0,-4.662219073124675
+[16:53:45] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! 12.540691888705965,0.0,-4.691291244393824
+[16:53:45] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! 12.934414736319809,0.0,-4.71434536135007
+[16:53:45] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! 13.328560848684788,0.0,-4.731058902390259
+[16:53:45] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! 13.722995266247267,0.0,-4.741238918727163
+[16:53:45] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! 14.117590713959089,0.0,-4.744793588977473
+[16:53:45] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! 14.512230774184331,0.0,-4.741717990904704
+[16:53:45] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! 14.9068106896799,0.0,-4.732073695930012
+[16:53:45] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! 15.30123845135654,0.0,-4.715978001922053
+[16:53:45] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! 15.695435263173863,0.0,-4.693594255746575
+[16:53:45] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! 16.089333922811647,0.0,-4.665115662713106
+[16:53:45] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! 16.482720969137404,0.0,-4.630082243863285
+[16:53:45] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! 16.875217348344336,0.0,-4.587521922161386
+[16:53:45] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! 17.26624197351805,0.0,-4.536074751729416
+[16:53:45] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! 17.6549723531092,0.0,-4.474118426704763
+[16:53:45] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! 18.040622229957307,0.0,-4.400503570373871
+[16:53:45] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! 18.422474618432716,0.0,-4.314474242699475
+[16:53:45] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! 18.799896863945378,0.0,-4.215589658046497
+[16:53:45] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! 19.172352974606724,0.0,-4.1036679338068325
+[16:53:45] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! 19.539401584351822,0.0,-3.978727100886431
+[16:53:45] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! 19.900697345850972,0.0,-3.840946148758462
+[16:53:45] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! 20.255983424109218,0.0,-3.6906252516578206
+[16:53:45] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! 20.605555982479018,0.0,-3.5286736008240496
+[16:53:45] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! 20.950174803856726,0.0,-3.3564664849321844
+[16:53:45] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! 21.29095816971312,0.0,-3.175753242972519
+[16:53:45] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! 21.628835084560023,0.0,-2.9880481463587785
+[16:53:45] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! 21.96457341629332,0.0,-2.7946557478470595
+[16:53:45] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! 22.298806710755116,0.0,-2.5966976834862407
+[16:53:45] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! 22.63205516206699,0.0,-2.395134607626801
+[16:53:57] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! 7.838840799713466,0.0,6.389217832850591
+[16:54:00] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 22710ms or 454 ticks behind
+[16:54:10] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! 9.887932162345805,0.0,2.30433046402959
+[16:54:10] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! 10.144756810469175,0.0,2.2738948810700776
+[16:54:10] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! 10.415452439940168,0.0,2.240542611515366
+[16:54:10] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! 10.69880069676799,0.0,2.20581950407518
+[16:54:10] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! 10.993710754633526,0.0,2.1716949722389245
+[16:54:10] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! 11.299126349168432,0.0,2.1404575211328165
+[16:54:10] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! 11.613968565820187,0.0,2.113934900989193
+[16:54:10] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! 11.937173413172673,0.0,2.093557564734624
+[16:54:10] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! 12.26771822560579,0.0,2.080414928822165
+[16:54:10] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! 12.604638515275155,0.0,2.0753116492328445
+[16:54:10] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! 12.947174745948928,0.0,2.07812322022869
+[16:54:10] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! 13.294779457144273,0.0,2.0879827692598383
+[16:54:16] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! 10.075826958210428,0.0,2.4464244487332962
+[16:54:16] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! 10.467473212692425,0.0,2.5260927818247865
+[16:54:16] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! 10.859315065039937,0.0,2.6049159628061034
+[16:54:16] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! 11.251339087289466,0.0,2.6829445411084407
+[16:54:16] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! 11.643532490194502,0.0,2.7602277807467317
+[16:54:16] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! 12.035883066804104,0.0,2.836813790724136
+[16:54:16] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! 12.428379808511067,0.0,2.912745865882698
+[16:54:16] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! 12.82101212584098,0.0,2.988066743901186
+[16:54:16] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! 13.213769806538949,0.0,3.0628186638057286
+[16:54:16] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! 13.606643648399995,0.0,3.13703963839032
+[16:54:16] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! 13.999624698887601,0.0,3.2107676547506117
+[16:54:16] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! 14.392704893268615,0.0,3.2840369003401975
+[16:54:16] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! 14.785876965832585,0.0,3.3568781429353294
+[16:54:16] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! 15.179133710613655,0.0,3.4293228500469013
+[16:54:16] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! 15.57246864224237,0.0,3.5013993415026334
+[16:54:16] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! 15.96587526078497,0.0,3.5731368835225794
+[16:54:16] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! 16.359348371952137,0.0,3.644558036862577
+[16:54:16] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! 16.752882641507313,0.0,3.7156868836468675
+[16:54:16] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! 17.146473268637806,0.0,3.7865450977865294
+[16:54:16] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! 17.540115273235756,0.0,3.8571559641768545
+[16:54:16] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! 17.933804828855386,0.0,3.9275366603816337
+[16:54:16] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! 18.327537836044485,0.0,3.997706425049273
+[16:54:35] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 19512ms or 390 ticks behind
+[16:54:39] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! 2.153354180691167,0.0,-10.053765689077977
+[16:54:54] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4746ms or 94 ticks behind
+[16:55:13] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3661ms or 73 ticks behind
+[16:55:37] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 8590ms or 171 ticks behind
+[16:56:22] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 30622ms or 612 ticks behind
+[16:56:57] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! -10.157673715539318,3.598840323348895E-5,0.8262149361615911
+[16:56:57] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! -10.530823072705289,3.6179136834846304E-5,0.9057325989552965
+[16:56:57] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! -10.906486057680354,3.629859709519678E-5,0.9809977634179177
+[16:57:02] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! -10.04188314995622,3.453237695794087E-11,2.454369575055466
+[16:57:02] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! -10.41120026857891,3.47455397786689E-11,2.5983143800079915
+[16:57:04] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! -9.379133857494708,-2.1316282072803006E-14,4.427145147865417
+[16:57:04] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! -9.710461414719475,-2.1316282072803006E-14,4.644562834925864
+[16:57:04] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! -10.037035231397454,-2.1316282072803006E-14,4.868427949004513
+[16:57:04] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! -10.358861995473603,-2.1316282072803006E-14,5.098559871850966
+[16:57:04] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! -10.67598754572623,-2.1316282072803006E-14,5.3347435036870365
+[16:57:07] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 30164ms or 603 ticks behind
+[16:57:11] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! -10.221944226145524,0.0,-1.608650984266319
+[16:57:11] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! -10.617510638279668,0.0,-1.6454307713090657
+[16:57:11] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! -10.222528328689918,0.0,-1.5935147419756959
+[16:57:14] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! -9.845559949718222,0.0,3.1824940983547094
+[16:57:14] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! -10.219814562960437,0.0,3.32237862811337
+[16:57:16] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! -9.138488790360384,0.0,4.931852951605379
+[16:57:16] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! -9.483055629329101,0.0,5.134670248126554
+[16:57:16] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! -9.827379922621049,0.0,5.337927590296317
+[16:57:16] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! -10.17147996434528,0.0,5.541590813893663
+[16:57:16] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! -10.515372211748854,0.0,5.745629167395123
+[16:57:16] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! -10.85907346938393,0.0,5.950011696174897
+[16:57:16] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! -11.202598857621979,0.0,6.15471053920794
+[16:57:19] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! -8.905705310952044,0.0,5.369328921733086
+[16:57:19] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! -9.247811876584365,0.0,5.576591773531391
+[16:57:19] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! -9.589906020667968,0.0,5.783876350701462
+[16:57:19] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! -9.931988985357975,0.0,5.991180480705566
+[16:57:19] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! -10.274061888594133,0.0,6.198502208259924
+[16:57:19] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! -10.616125736521894,0.0,6.4058397736090456
+[16:57:19] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! -10.958181434672497,0.0,6.61319159297318
+[16:57:19] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! -11.300229798023793,0.0,6.8205562409503955
+[16:57:19] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! -11.64227156005586,0.0,7.027932434679087
+[16:57:19] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! -11.984664189205546,0.0,7.234719164026728
+[16:57:19] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! -12.328021827444786,0.0,7.439818229498314
+[16:57:19] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! -12.673105949175579,0.0,7.6417138510510085
+[16:57:19] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! -13.020717033789992,0.0,7.838532163197442
+[16:57:19] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! -13.371363763495765,0.0,8.0287608015243
+[16:57:19] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! -13.725334064129243,0.0,8.211206767897352
+[16:57:19] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! -14.082751062312582,0.0,8.384956124961377
+[16:57:19] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! -14.443616070819758,0.0,8.549340914695904
+[16:57:19] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! -14.807843091903806,0.0,8.703906439808975
+[16:57:19] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! -15.175287109850387,0.0,8.848372035310717
+[16:57:19] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! -15.54576367204163,0.0,8.982609326712918
+[16:57:19] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! -15.919065379425433,0.0,9.1066101833851
+[16:57:19] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! -16.294972928140965,0.0,9.220472366557601
+[16:57:19] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! -16.673264409956914,0.0,9.32437079587396
+[16:57:19] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! -17.05372110476435,0.0,9.41855046486819
+[16:57:19] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! -17.436132120126217,0.0,9.503304494813278
+[16:57:19] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! -17.82029725929408,0.0,9.578965717020992
+[16:57:19] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! -18.206028887168145,0.0,9.645895154873074
+[16:57:19] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! -18.593152879503577,0.0,9.704471590117123
+[16:57:19] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! -18.98150906741489,0.0,9.755085963950592
+[16:57:21] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! -9.575880987864707,0.0,3.616573216370057
+[16:57:21] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! -9.57699817607022,0.0,3.607786670006817
+[16:57:23] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! -10.180515973077604,0.0,-1.083421698745724
+[16:57:23] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! -10.49817244105634,0.0,-1.1413328108230871
+[16:57:23] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! -10.784063254663693,0.0,-1.1934528103120101
+[16:57:23] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! -11.041364980094158,0.0,-1.2403608086093527
+[16:57:23] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! -11.272936526847047,0.0,-1.2825780059586123
+[16:57:23] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! -11.481350913403503,0.0,-1.320573482566374
+[16:57:23] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! -11.668923856335368,0.0,-1.354769410607446
+[16:57:23] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! -11.837739500501925,0.0,-1.3855457450291624
+[16:57:23] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! -11.989673576227005,0.0,-1.4132444452749269
+[16:57:23] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! -12.126414240757185,0.0,-1.4381732748357763
+[16:57:23] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! -12.249480835574104,0.0,-1.4606092208462087
+[16:57:23] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! -12.399321890701458,0.0,-1.4893259840099518
+[16:57:23] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! -12.573258324067297,0.0,-1.5237029768146613
+[16:57:23] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! -12.768878961870996,0.0,-1.5631816686513957
+[16:57:23] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! -12.98401456358772,0.0,-1.607255636206105
+[16:57:23] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! -13.216711996958566,0.0,-1.65547284521881
+[16:57:23] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! -13.465214255110254,0.0,-1.70742271722429
+[16:57:23] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! -13.727939216060122,0.0,-1.76273947832442
+[16:57:35] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! -10.086642265013325,0.0,0.6497990491552628
+[16:57:35] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! -10.311023841589304,0.0,0.7140729346440366
+[16:57:44] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! -10.189696536089741,0.0,-1.2425924104079513
+[16:57:44] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! -10.580855761902967,0.0,-1.3203388662975613
+[16:57:44] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! -10.971933012634622,0.0,-1.39904852940424
+[16:57:44] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! -11.362932294843176,0.0,-1.4786437901850604
+[16:58:04] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! 6.884391991016514,0.0,7.716498288631897
+[16:58:04] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! 7.199913845722449,0.0,7.955049499802271
+[16:58:09] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! 10.303763013088428,0.0,-0.7920261282206411
+[16:58:09] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 46593ms or 931 ticks behind
+[16:58:11] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! 10.383095551523411,0.0,0.2781676993770361
+[16:58:11] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! 10.78268763735332,0.0,0.29387030968439376
+[16:58:11] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! 11.182283448716476,0.0,0.30972018889394803
+[16:58:11] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! 11.58188244542157,0.0,0.32570644145664573
+[16:58:53] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 28993ms or 579 ticks behind
+[16:59:08] [Server thread/WARN]: LuckMaster123 moved too quickly! -8.801059207052731,-1.0,4.737121798807839
+[16:59:20] [Server thread/WARN]: LuckMaster123 moved too quickly! -9.402411436586362,-0.07840000152587834,3.4131266076267366
+[16:59:27] [Server thread/WARN]: LuckMaster123 moved too quickly! -9.537428283183772,0.0,3.29595847156369
+[16:59:34] [Server thread/WARN]: LuckMaster123 moved too quickly! 1.2753217003296413,-1.0,10.046073909613114
+[16:59:39] [Server thread/WARN]: LuckMaster123 moved too quickly! -5.384228222843149,-3.252203340253729,7.8110634287485325
+[16:59:48] [Server thread/WARN]: LuckMaster123 moved too quickly! -9.509504489006304,0.7508129212553172,3.294381129339527
+[16:59:55] [Server thread/WARN]: LuckMaster123 moved too quickly! -4.836220548352912,-4.0,7.848713545919352
+[17:00:06] [Server Watchdog/ERROR]: A single server tick took 60.60 seconds (should be max 0.05)
+[17:00:06] [Server Watchdog/ERROR]: Considering it to be crashed, server will forcibly shutdown.
+Crash report:
+---- Minecraft Crash Report ----
+// Surprise! Haha. Well, this is awkward.
+
+Time: 4/16/22, 5:00 PM
+Description: Watching Server
+
+java.lang.Error: Watchdog
+	at java.base@17.0.2/java.util.HashSet.iterator(HashSet.java:174)
+	at bdu.b(SourceFile:97)
+	at aya.eF(SourceFile:742)
+	at axy.w_(SourceFile:2609)
+	at aya.w_(SourceFile:546)
+	at axi.w_(SourceFile:127)
+	at bid.w_(SourceFile:58)
+	at bih.w_(SourceFile:82)
+	at axy.k(SourceFile:2354)
+	at aya.k(SourceFile:346)
+	at adw.a(SourceFile:702)
+	at adw$$Lambda$5040/0x0000000801628d10.accept(Unknown Source)
+	at cav.a(SourceFile:485)
+	at adw.a(SourceFile:363)
+	at adw$$Lambda$4836/0x00000008015f1408.accept(Unknown Source)
+	at csm.a(SourceFile:54)
+	at adw.a(SourceFile:331)
+	at net.minecraft.server.MinecraftServer.b(SourceFile:907)
+	at acx.b(SourceFile:322)
+	at net.minecraft.server.MinecraftServer.a(SourceFile:851)
+	at net.minecraft.server.MinecraftServer.w(SourceFile:697)
+	at net.minecraft.server.MinecraftServer.a(SourceFile:273)
+	at net.minecraft.server.MinecraftServer$$Lambda$4269/0x000000080141bc00.run(Unknown Source)
+	at java.base@17.0.2/java.lang.Thread.run(Thread.java:833)
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- Head --
+Thread: Server Watchdog
+Stacktrace:
+	at java.base@17.0.2/java.util.HashSet.iterator(HashSet.java:174)
+	at bdu.b(SourceFile:97)
+	at aya.eF(SourceFile:742)
+	at axy.w_(SourceFile:2609)
+	at aya.w_(SourceFile:546)
+	at axi.w_(SourceFile:127)
+	at bid.w_(SourceFile:58)
+	at bih.w_(SourceFile:82)
+	at axy.k(SourceFile:2354)
+	at aya.k(SourceFile:346)
+	at adw.a(SourceFile:702)
+	at adw$$Lambda$5040/0x0000000801628d10.accept(Unknown Source)
+	at cav.a(SourceFile:485)
+	at adw.a(SourceFile:363)
+	at adw$$Lambda$4836/0x00000008015f1408.accept(Unknown Source)
+	at csm.a(SourceFile:54)
+	at adw.a(SourceFile:331)
+	at net.minecraft.server.MinecraftServer.b(SourceFile:907)
+	at acx.b(SourceFile:322)
+	at net.minecraft.server.MinecraftServer.a(SourceFile:851)
+	at net.minecraft.server.MinecraftServer.w(SourceFile:697)
+	at net.minecraft.server.MinecraftServer.a(SourceFile:273)
+
+-- Thread Dump --
+Details:
+	Threads: "Reference Handler" daemon prio=10 Id=2 RUNNABLE
+	at java.base@17.0.2/java.lang.ref.Reference.waitForReferencePendingList(Native Method)
+	at java.base@17.0.2/java.lang.ref.Reference.processPendingReferences(Reference.java:253)
+	at java.base@17.0.2/java.lang.ref.Reference$ReferenceHandler.run(Reference.java:215)
+
+
+"Finalizer" daemon prio=8 Id=3 WAITING on java.lang.ref.ReferenceQueue$Lock@970fc7f
+	at java.base@17.0.2/java.lang.Object.wait(Native Method)
+	-  waiting on java.lang.ref.ReferenceQueue$Lock@970fc7f
+	at java.base@17.0.2/java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:155)
+	at java.base@17.0.2/java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:176)
+	at java.base@17.0.2/java.lang.ref.Finalizer$FinalizerThread.run(Finalizer.java:172)
+
+
+"Signal Dispatcher" daemon prio=9 Id=4 RUNNABLE
+
+
+"Notification Thread" daemon prio=9 Id=10 RUNNABLE
+
+
+"Common-Cleaner" daemon prio=8 Id=11 TIMED_WAITING on java.lang.ref.ReferenceQueue$Lock@52f35637
+	at java.base@17.0.2/java.lang.Object.wait(Native Method)
+	-  waiting on java.lang.ref.ReferenceQueue$Lock@52f35637
+	at java.base@17.0.2/java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:155)
+	at java.base@17.0.2/jdk.internal.ref.CleanerImpl.run(CleanerImpl.java:140)
+	at java.base@17.0.2/java.lang.Thread.run(Thread.java:833)
+	at java.base@17.0.2/jdk.internal.misc.InnocuousThread.run(InnocuousThread.java:162)
+
+
+"DestroyJavaVM" prio=5 Id=13 RUNNABLE
+
+
+"Timer hack thread" daemon prio=5 Id=20 TIMED_WAITING
+	at java.base@17.0.2/java.lang.Thread.sleep(Native Method)
+	at ad$8.run(SourceFile:784)
+
+
+"Server thread" prio=5 Id=22 RUNNABLE
+	at java.base@17.0.2/java.util.HashSet.iterator(HashSet.java:174)
+	at bdu.b(SourceFile:97)
+	at aya.eF(SourceFile:742)
+	at axy.w_(SourceFile:2609)
+	at aya.w_(SourceFile:546)
+	at axi.w_(SourceFile:127)
+	at bid.w_(SourceFile:58)
+	at bih.w_(SourceFile:82)
+	...
+
+
+"Netty Epoll Server IO #0" daemon prio=5 Id=25 RUNNABLE
+	at io.netty.channel.epoll.Native.epollWait(Native Method)
+	at io.netty.channel.epoll.Native.epollWait(Native.java:192)
+	at io.netty.channel.epoll.Native.epollWait(Native.java:185)
+	at io.netty.channel.epoll.EpollEventLoop.epollWaitNoTimerChange(EpollEventLoop.java:290)
+	at io.netty.channel.epoll.EpollEventLoop.run(EpollEventLoop.java:347)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:986)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at java.base@17.0.2/java.lang.Thread.run(Thread.java:833)
+
+
+"Netty Epoll Server IO #1" daemon prio=5 Id=26 RUNNABLE (in native)
+	at io.netty.channel.epoll.Native.epollWait(Native Method)
+	at io.netty.channel.epoll.Native.epollWait(Native.java:192)
+	at io.netty.channel.epoll.Native.epollWait(Native.java:185)
+	at io.netty.channel.epoll.EpollEventLoop.epollWaitNoTimerChange(EpollEventLoop.java:290)
+	at io.netty.channel.epoll.EpollEventLoop.run(EpollEventLoop.java:347)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:986)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at java.base@17.0.2/java.lang.Thread.run(Thread.java:833)
+
+
+"Server Watchdog" daemon prio=5 Id=32 RUNNABLE
+	at java.management@17.0.2/sun.management.ThreadImpl.dumpThreads0(Native Method)
+	at java.management@17.0.2/sun.management.ThreadImpl.dumpAllThreads(ThreadImpl.java:521)
+	at java.management@17.0.2/sun.management.ThreadImpl.dumpAllThreads(ThreadImpl.java:509)
+	at ada.run(SourceFile:49)
+	at java.base@17.0.2/java.lang.Thread.run(Thread.java:833)
+
+
+"Worker-Main-2448" daemon prio=5 Id=2515 TIMED_WAITING on java.util.concurrent.ForkJoinPool@14e7748b
+	at java.base@17.0.2/jdk.internal.misc.Unsafe.park(Native Method)
+	-  waiting on java.util.concurrent.ForkJoinPool@14e7748b
+	at java.base@17.0.2/java.util.concurrent.locks.LockSupport.parkUntil(LockSupport.java:410)
+	at java.base@17.0.2/java.util.concurrent.ForkJoinPool.awaitWork(ForkJoinPool.java:1726)
+	at java.base@17.0.2/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1623)
+	at java.base@17.0.2/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165)
+
+
+"IO-Worker-2484" prio=5 Id=2566 TIMED_WAITING on java.util.concurrent.SynchronousQueue$TransferStack@2bf5f024
+	at java.base@17.0.2/jdk.internal.misc.Unsafe.park(Native Method)
+	-  waiting on java.util.concurrent.SynchronousQueue$TransferStack@2bf5f024
+	at java.base@17.0.2/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:252)
+	at java.base@17.0.2/java.util.concurrent.SynchronousQueue$TransferStack.transfer(SynchronousQueue.java:401)
+	at java.base@17.0.2/java.util.concurrent.SynchronousQueue.poll(SynchronousQueue.java:903)
+	at java.base@17.0.2/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1061)
+	at java.base@17.0.2/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1122)
+	at java.base@17.0.2/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base@17.0.2/java.lang.Thread.run(Thread.java:833)
+
+
+"IO-Worker-2488" prio=5 Id=2573 TIMED_WAITING on java.util.concurrent.SynchronousQueue$TransferStack@2bf5f024
+	at java.base@17.0.2/jdk.internal.misc.Unsafe.park(Native Method)
+	-  waiting on java.util.concurrent.SynchronousQueue$TransferStack@2bf5f024
+	at java.base@17.0.2/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:252)
+	at java.base@17.0.2/java.util.concurrent.SynchronousQueue$TransferStack.transfer(SynchronousQueue.java:401)
+	at java.base@17.0.2/java.util.concurrent.SynchronousQueue.poll(SynchronousQueue.java:903)
+	at java.base@17.0.2/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1061)
+	at java.base@17.0.2/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1122)
+	at java.base@17.0.2/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base@17.0.2/java.lang.Thread.run(Thread.java:833)
+
+
+"Worker-Main-2489" daemon prio=5 Id=2574 RUNNABLE
+	at akc.a(SourceFile:32)
+	at crh.a(SourceFile:146)
+	at crh.a(SourceFile:140)
+	at crb.c(SourceFile:188)
+	at cqq.getNoiseBiome(SourceFile:377)
+	at cri.getNoiseBiome(SourceFile:265)
+	at cay.getNoiseBiome(SourceFile:66)
+	at cbt.a(SourceFile:79)
+	...
+
+
+"Worker-Main-2490" daemon prio=5 Id=2575 RUNNABLE
+	at dil.a(SourceFile:85)
+	at diq.b(SourceFile:55)
+	at dik.b(SourceFile:175)
+	at diq.a(SourceFile:99)
+	at dik.b(SourceFile:216)
+	at dil.a(SourceFile:193)
+	at dio.a(SourceFile:65)
+	at adz.e(SourceFile:177)
+	...
+
+
+"IO-Worker-2491" prio=5 Id=2576 TIMED_WAITING on java.util.concurrent.SynchronousQueue$TransferStack@2bf5f024
+	at java.base@17.0.2/jdk.internal.misc.Unsafe.park(Native Method)
+	-  waiting on java.util.concurrent.SynchronousQueue$TransferStack@2bf5f024
+	at java.base@17.0.2/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:252)
+	at java.base@17.0.2/java.util.concurrent.SynchronousQueue$TransferStack.transfer(SynchronousQueue.java:401)
+	at java.base@17.0.2/java.util.concurrent.SynchronousQueue.poll(SynchronousQueue.java:903)
+	at java.base@17.0.2/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1061)
+	at java.base@17.0.2/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1122)
+	at java.base@17.0.2/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base@17.0.2/java.lang.Thread.run(Thread.java:833)
+
+
+"IO-Worker-2492" prio=5 Id=2577 TIMED_WAITING on java.util.concurrent.SynchronousQueue$TransferStack@2bf5f024
+	at java.base@17.0.2/jdk.internal.misc.Unsafe.park(Native Method)
+	-  waiting on java.util.concurrent.SynchronousQueue$TransferStack@2bf5f024
+	at java.base@17.0.2/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:252)
+	at java.base@17.0.2/java.util.concurrent.SynchronousQueue$TransferStack.transfer(SynchronousQueue.java:401)
+	at java.base@17.0.2/java.util.concurrent.SynchronousQueue.poll(SynchronousQueue.java:903)
+	at java.base@17.0.2/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1061)
+	at java.base@17.0.2/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1122)
+	at java.base@17.0.2/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base@17.0.2/java.lang.Thread.run(Thread.java:833)
+
+
+
+Stacktrace:
+	at ada.run(SourceFile:65)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+
+-- Performance stats --
+Details:
+	Random tick rate: 3
+	Level stats: ResourceKey[minecraft:dimension / minecraft:overworld]: players: 2, entities: 519,519,262,1387,1387,2,0 [minecraft:chicken:60,minecraft:sheep:59,minecraft:creeper:51,minecraft:skeleton:42,minecraft:pig:37], block_entities: 214 [minecraft:mob_spawner:174,minecraft:beehive:29,minecraft:furnace:6,minecraft:campfire:2,minecraft:blast_furnace:1], block_ticks: 18270, fluid_ticks: 363, chunk_source: Chunks[S] W: 6290 E: 519,519,262,1387,1387,0,0,
+ResourceKey[minecraft:dimension / minecraft:the_end]: players: 0, entities: 0,0,0,0,0,0,0 [], block_entities: 0 [], block_ticks: 0, fluid_ticks: 0, chunk_source: Chunks[S] W: 0 E: 0,0,0,0,0,0,0,
+ResourceKey[minecraft:dimension / minecraft:the_nether]: players: 0, entities: 0,0,0,0,0,0,0 [], block_entities: 0 [], block_ticks: 0, fluid_ticks: 0, chunk_source: Chunks[S] W: 0 E: 0,0,0,0,0,0,0
+
+-- System Details --
+Details:
+	Minecraft Version: 1.18.2
+	Minecraft Version ID: 1.18.2
+	Operating System: Linux (amd64) version 5.13.0-1021-azure
+	Java Version: 17.0.2, Private Build
+	Java VM Version: OpenJDK 64-Bit Server VM (mixed mode, sharing), Private Build
+	Memory: 189776848 bytes (180 MiB) / 1037959168 bytes (989 MiB) up to 1037959168 bytes (989 MiB)
+	CPUs: 1
+	Processor Vendor: GenuineIntel
+	Processor Name: Intel(R) Xeon(R) Platinum 8272CL CPU @ 2.60GHz
+	Identifier: Intel64 Family 6 Model 85 Stepping 7
+	Microarchitecture: Cascade Lake
+	Frequency (GHz): 2.60
+	Number of physical packages: 1
+	Number of physical CPUs: 1
+	Number of logical CPUs: 1
+	Graphics card #0 name: unknown
+	Graphics card #0 vendor: unknown
+	Graphics card #0 VRAM (MB): 0.00
+	Graphics card #0 deviceId: unknown
+	Graphics card #0 versionInfo: unknown
+	Virtual memory max (MB): 957.52
+	Virtual memory used (MB): 1727.13
+	Swap memory total (MB): 0.00
+	Swap memory used (MB): 0.00
+	JVM Flags: 2 total; -Xmx1024M -Xms1024M
+	Server Running: true
+	Player Count: 2 / 20; [adx['Never_Lucky123'/125256, l='ServerLevel[world]', x=-869.47, y=63.00, z=985.99], adx['LuckMaster123'/153007, l='ServerLevel[world]', x=-1119.41, y=69.00, z=113.87]]
+	Data Packs: vanilla
+	World Generation: Stable
+	Is Modded: Probably not. Server jar signature and brand is untouched
+	Type: Dedicated Server (map_server.txt)
+[17:00:07] [Server Watchdog/ERROR]: This crash report has been saved to: /home/azureuser/minecraft/./crash-reports/crash-2022-04-16_17.00.07-server.txt
+Starting net.minecraft.server.Main
+[17:02:07] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[17:02:11] [ServerMain/WARN]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[17:02:11] [ServerMain/WARN]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
+[17:02:11] [ServerMain/WARN]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[17:02:11] [ServerMain/WARN]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[17:02:11] [ServerMain/WARN]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[17:02:13] [Worker-Main-2/INFO]: Loaded 7 recipes
+[17:02:14] [Worker-Main-2/INFO]: Loaded 1141 advancements
+[17:02:17] [Server thread/INFO]: Starting minecraft server version 1.18.2
+[17:02:17] [Server thread/INFO]: Loading properties
+[17:02:17] [Server thread/INFO]: Default game type: SURVIVAL
+[17:02:17] [Server thread/INFO]: Generating keypair
+[17:02:17] [Server console handler/ERROR]: Exception handling console input
+java.io.IOException: Bad file descriptor
+	at java.io.FileInputStream.readBytes(Native Method) ~[?:?]
+	at java.io.FileInputStream.read(FileInputStream.java:276) ~[?:?]
+	at java.io.BufferedInputStream.read1(BufferedInputStream.java:282) ~[?:?]
+	at java.io.BufferedInputStream.read(BufferedInputStream.java:343) ~[?:?]
+	at sun.nio.cs.StreamDecoder.readBytes(StreamDecoder.java:270) ~[?:?]
+	at sun.nio.cs.StreamDecoder.implRead(StreamDecoder.java:313) ~[?:?]
+	at sun.nio.cs.StreamDecoder.read(StreamDecoder.java:188) ~[?:?]
+	at java.io.InputStreamReader.read(InputStreamReader.java:177) ~[?:?]
+	at java.io.BufferedReader.fill(BufferedReader.java:162) ~[?:?]
+	at java.io.BufferedReader.readLine(BufferedReader.java:329) ~[?:?]
+	at java.io.BufferedReader.readLine(BufferedReader.java:396) ~[?:?]
+	at acx$1.run(SourceFile:99) [server-1.18.2.jar:?]
+[17:02:17] [Server thread/INFO]: Starting Minecraft server on *:25565
+[17:02:17] [Server thread/INFO]: Using epoll channel type
+[17:02:17] [Server thread/INFO]: Preparing level "world"
+[17:02:25] [User Authenticator #1/INFO]: UUID of player Never_Lucky123 is fdeaf439-d900-47e4-8e38-2d67e341266d
+[17:02:31] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[17:02:34] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[17:02:34] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[17:02:34] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[17:02:34] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[17:02:34] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[17:02:34] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[17:02:34] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[17:02:34] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[17:02:35] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[17:02:35] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[17:02:36] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[17:02:36] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[17:02:37] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[17:02:37] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[17:02:38] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[17:02:39] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[17:02:39] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[17:02:39] [Worker-Main-2/INFO]: Preparing spawn area: 5%
+[17:02:40] [Worker-Main-2/INFO]: Preparing spawn area: 8%
+[17:02:40] [Worker-Main-2/INFO]: Preparing spawn area: 10%
+[17:02:41] [Worker-Main-2/INFO]: Preparing spawn area: 13%
+[17:02:41] [Worker-Main-2/INFO]: Preparing spawn area: 15%
+[17:02:42] [Worker-Main-2/INFO]: Preparing spawn area: 18%
+[17:02:42] [Worker-Main-2/INFO]: Preparing spawn area: 34%
+[17:02:43] [Worker-Main-2/INFO]: Preparing spawn area: 44%
+[17:02:43] [Worker-Main-2/INFO]: Preparing spawn area: 55%
+[17:02:44] [Worker-Main-2/INFO]: Preparing spawn area: 59%
+[17:02:44] [Worker-Main-2/INFO]: Preparing spawn area: 75%
+[17:02:46] [Worker-Main-2/INFO]: Preparing spawn area: 78%
+[17:02:46] [Worker-Main-2/INFO]: Preparing spawn area: 78%
+[17:02:46] [Worker-Main-2/INFO]: Preparing spawn area: 83%
+[17:02:47] [Server thread/INFO]: Time elapsed: 15783 ms
+[17:02:47] [Server thread/INFO]: Done (29.324s)! For help, type "help"
+[17:02:47] [Server thread/INFO]: com.mojang.authlib.GameProfile@74dd3031[id=fdeaf439-d900-47e4-8e38-2d67e341266d,name=Never_Lucky123,properties={textures=[com.mojang.authlib.properties.Property@1e07e2e7]},legacy=false] (/129.97.131.0:35185) lost connection: Disconnected
+[17:03:09] [User Authenticator #2/INFO]: UUID of player Never_Lucky123 is fdeaf439-d900-47e4-8e38-2d67e341266d
+[17:03:10] [Server thread/INFO]: Never_Lucky123[/129.97.131.0:55170] logged in with entity id 118 at (-869.4732803711332, 63.0, 985.9945088168964)
+[17:03:10] [Server thread/INFO]: Never_Lucky123 joined the game
+[17:03:46] [Server thread/INFO]: Never_Lucky123 lost connection: Disconnected
+[17:03:46] [Server thread/INFO]: Never_Lucky123 left the game
+[17:03:47] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 37447ms or 748 ticks behind
+[17:03:47] [Server thread/WARN]: handleDisconnection() called twice
+[17:03:47] [User Authenticator #3/INFO]: UUID of player Never_Lucky123 is fdeaf439-d900-47e4-8e38-2d67e341266d
+[17:03:47] [Server thread/INFO]: Never_Lucky123[/129.97.131.0:55174] logged in with entity id 119 at (-869.4732803711332, 63.0, 985.9945088168964)
+[17:03:47] [Server thread/INFO]: Never_Lucky123 joined the game
+[17:04:46] [Server thread/INFO]: Never_Lucky123 lost connection: Disconnected
+[17:04:46] [Server thread/INFO]: Never_Lucky123 left the game
+[17:05:25] [User Authenticator #4/INFO]: UUID of player Never_Lucky123 is fdeaf439-d900-47e4-8e38-2d67e341266d
+[17:05:25] [Server thread/INFO]: Never_Lucky123[/129.97.131.0:55178] logged in with entity id 132 at (-869.4732803711332, 63.0, 985.9945088168964)
+[17:05:25] [Server thread/INFO]: Never_Lucky123 joined the game
+[17:06:30] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 49875ms or 997 ticks behind
+[17:06:31] [Server thread/WARN]: Never_Lucky123 moved too quickly! -7.84042824695382,-0.8166000031828844,-6.213899277017163
+[17:06:53] [User Authenticator #5/INFO]: UUID of player LuckMaster123 is 87211ff0-269b-4055-9e19-6ebd78327146
+[17:06:54] [Server thread/INFO]: LuckMaster123[/129.97.125.1:11329] logged in with entity id 586 at (-1120.4200926242802, 69.0, 114.36926637152207)
+[17:06:54] [Server thread/INFO]: LuckMaster123 joined the game
+[17:07:06] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 12339ms or 246 ticks behind
+[17:07:43] [Server thread/INFO]: LuckMaster123 lost connection: Disconnected
+[17:07:43] [Server thread/INFO]: LuckMaster123 left the game
+[17:07:43] [Server thread/INFO]: Never_Lucky123 lost connection: Disconnected
+[17:07:43] [Server thread/INFO]: Never_Lucky123 left the game
+[17:07:43] [Server thread/WARN]: handleDisconnection() called twice
+[17:07:47] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 26228ms or 524 ticks behind
+Starting net.minecraft.server.Main
+[17:10:17] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[17:10:19] [ServerMain/WARN]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[17:10:19] [ServerMain/WARN]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
+[17:10:19] [ServerMain/WARN]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[17:10:20] [ServerMain/WARN]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[17:10:20] [ServerMain/WARN]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[17:10:21] [Worker-Main-2/INFO]: Loaded 7 recipes
+[17:10:21] [Worker-Main-2/INFO]: Loaded 1141 advancements
+[17:10:23] [Server thread/INFO]: Starting minecraft server version 1.18.2
+[17:10:23] [Server thread/INFO]: Loading properties
+[17:10:23] [Server thread/INFO]: Default game type: SURVIVAL
+[17:10:23] [Server thread/INFO]: Generating keypair
+[17:10:23] [Server console handler/ERROR]: Exception handling console input
+java.io.IOException: Bad file descriptor
+	at java.io.FileInputStream.readBytes(Native Method) ~[?:?]
+	at java.io.FileInputStream.read(FileInputStream.java:276) ~[?:?]
+	at java.io.BufferedInputStream.read1(BufferedInputStream.java:282) ~[?:?]
+	at java.io.BufferedInputStream.read(BufferedInputStream.java:343) ~[?:?]
+	at sun.nio.cs.StreamDecoder.readBytes(StreamDecoder.java:270) ~[?:?]
+	at sun.nio.cs.StreamDecoder.implRead(StreamDecoder.java:313) ~[?:?]
+	at sun.nio.cs.StreamDecoder.read(StreamDecoder.java:188) ~[?:?]
+	at java.io.InputStreamReader.read(InputStreamReader.java:177) ~[?:?]
+	at java.io.BufferedReader.fill(BufferedReader.java:162) ~[?:?]
+	at java.io.BufferedReader.readLine(BufferedReader.java:329) ~[?:?]
+	at java.io.BufferedReader.readLine(BufferedReader.java:396) ~[?:?]
+	at acx$1.run(SourceFile:99) [server-1.18.2.jar:?]
+[17:10:23] [Server thread/INFO]: Starting Minecraft server on *:25565
+[17:10:23] [Server thread/INFO]: Using epoll channel type
+[17:10:23] [Server thread/INFO]: Preparing level "world"
+[17:10:31] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[17:10:34] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[17:10:34] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[17:10:34] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[17:10:34] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[17:10:34] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[17:10:34] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[17:10:35] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[17:10:35] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[17:10:35] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[17:10:36] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[17:10:36] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[17:10:37] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[17:10:37] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[17:10:38] [Worker-Main-2/INFO]: Preparing spawn area: 2%
+[17:10:38] [Worker-Main-2/INFO]: Preparing spawn area: 4%
+[17:10:39] [Worker-Main-2/INFO]: Preparing spawn area: 4%
+[17:10:40] [Worker-Main-2/INFO]: Preparing spawn area: 12%
+[17:10:40] [Worker-Main-2/INFO]: Preparing spawn area: 23%
+[17:10:40] [Worker-Main-2/INFO]: Preparing spawn area: 30%
+[17:10:41] [Worker-Main-2/INFO]: Preparing spawn area: 30%
+[17:10:42] [Worker-Main-2/INFO]: Preparing spawn area: 41%
+[17:10:42] [Worker-Main-2/INFO]: Preparing spawn area: 59%
+[17:10:42] [Worker-Main-2/INFO]: Preparing spawn area: 78%
+[17:10:43] [Server thread/INFO]: Time elapsed: 11694 ms
+[17:10:43] [Server thread/INFO]: Done (19.781s)! For help, type "help"
+[17:10:49] [User Authenticator #1/INFO]: UUID of player Never_Lucky123 is fdeaf439-d900-47e4-8e38-2d67e341266d
+[17:10:50] [Server thread/INFO]: Never_Lucky123[/129.97.131.0:55180] logged in with entity id 122 at (-871.0060884888558, 63.0, 987.3207628738687)
+[17:10:50] [Server thread/INFO]: Never_Lucky123 joined the game
+[17:10:52] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2303ms or 46 ticks behind
+[17:12:06] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! -9.760924862084948,0.0,-3.4361260802986635
+[17:12:06] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! -10.146314110907497,0.0,-3.416349633758273
+[17:12:06] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! -10.530754605251786,0.0,-3.3848768348593694
+[17:12:06] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! -10.914065228731033,0.0,-3.3421412054788107
+[17:12:06] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! -11.296097523860453,0.0,-3.2886095007449967
+[17:12:06] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! -11.6767348066262,0.0,-3.224773565185842
+[17:12:06] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! -12.0558891642263,0.0,-3.1511396253557677
+[17:12:06] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! -12.433496391203334,0.0,-3.0682153851892053
+[17:12:06] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! -12.809515563311379,0.0,-2.976509107127413
+[17:12:06] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! -13.183925081441885,0.0,-2.876521921285189
+[17:12:06] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! -13.55672035540465,0.0,-2.7687445228210663
+[17:12:06] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! -13.927911454835566,0.0,-2.6536543038779428
+[17:12:06] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! -14.297518998256919,0.0,-2.531709454959696
+[17:12:06] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! -14.665575515902447,0.0,-2.403353973360595
+[17:12:06] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! -15.032121285763651,0.0,-2.2690120044353534
+[17:12:06] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! -15.397202173006463,0.0,-2.1290862244379696
+[17:12:06] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! -15.760869417705408,0.0,-1.9839598160687046
+[17:12:06] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! -16.123177540181132,0.0,-1.833994899293316
+[17:12:06] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! -16.484184247668964,0.0,-1.6795345165450044
+[17:12:06] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! -16.844285447633865,0.0,-1.5215122880629224
+[17:12:06] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! -17.20412271716441,0.0,-1.3613420959653695
+[17:12:06] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! -17.564483775712688,0.0,-1.200842656677878
+[17:12:06] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! -17.9259389862425,0.0,-1.0415155552370834
+[17:12:06] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! -18.288889711807542,0.0,-0.8845878176588258
+[17:12:06] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! -18.653603935130832,0.0,-0.7310425212358496
+[17:12:06] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! -19.020247887815458,0.0,-0.5816557343314344
+[17:12:06] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! -19.388908448137045,0.0,-0.4370204200953367
+[17:12:06] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! -19.75961344061693,0.0,-0.2975764695468115
+[17:12:06] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! -20.132346131917984,0.0,-0.16363120557127786
+[17:12:06] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! -20.50705776306131,0.0,-0.035382202091568615
+[17:12:06] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! -20.883676768334908,0.0,0.0870654434302196
+[17:12:06] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! -21.26211612608745,0.0,0.20368321922035193
+[17:12:06] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! -21.642279724848322,0.0,0.3145008467113257
+[17:12:06] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! -22.02406512005382,0.0,0.41960473618155447
+[17:12:06] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! -22.407368324780464,0.0,0.5191174968018686
+[17:12:06] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! -22.792085498801043,0.0,0.6131945756529831
+[17:12:06] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! -23.17811472205358,0.0,0.7020173669216092
+[17:12:06] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3837ms or 76 ticks behind
+[17:12:06] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! -14.190554133001115,0.0,4.2296062672827475
+[17:12:06] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! -14.578916613188312,0.0,4.308526683207447
+[17:12:06] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! -14.968360092780586,0.0,4.382126533678502
+[17:12:06] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! -15.358846592951068,0.0,4.4493710491186675
+[17:12:06] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! -15.75026928959528,0.0,4.5087906190971125
+[17:12:06] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! -16.142437340417473,0.0,4.5592721070323705
+[17:12:06] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! -16.53511212584567,0.0,4.600010804334033
+[17:12:06] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! -16.928033175233395,0.0,4.630457648314291
+[17:12:06] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! -17.320937760249308,0.0,4.6502819981310495
+[17:12:06] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! -17.713572382198663,0.0,4.659326190556271
+[17:12:06] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! -18.10570248848785,0.0,4.657579446333898
+[17:12:06] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! -18.497116951986072,0.0,4.64514680586899
+[17:12:06] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! -18.887830593367426,0.0,4.622897697570579
+[17:12:06] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! -19.2780513902062,0.0,4.592304818528078
+[17:12:09] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! -9.930459970720221,0.0,-1.535328867253611
+[17:12:09] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! -10.320637778511582,0.0,-1.5718363666941286
+[17:12:09] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! -10.711444660158577,0.0,-1.5993896993846874
+[17:12:09] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! -11.102589791275022,0.0,-1.6173945693570886
+[17:12:09] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! -11.493786135198889,0.0,-1.6254721398472611
+[17:12:09] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! -11.884761746730646,0.0,-1.6234212935329424
+[17:12:09] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! -12.27526753895927,0.0,-1.6111882006515543
+[17:12:09] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! -12.665081770010602,0.0,-1.5888388870012022
+[17:12:09] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! -13.054011905551079,0.0,-1.5565346419990647
+[17:12:09] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! -13.441894469649469,0.0,-1.5145100768561406
+[17:12:12] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! -10.28142285202739,0.0,-0.4462671860133014
+[17:12:12] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! -10.669231283781983,0.0,-0.385733531527535
+[17:12:12] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! -11.053477697992093,0.0,-0.31228923643675444
+[17:12:12] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! -11.433739990221511,0.0,-0.22584607265093837
+[17:12:12] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! -11.809667211993201,0.0,-0.12648557115744552
+[17:12:12] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! -12.18098310579694,0.0,-0.014428689080659751
+[17:12:12] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! -12.54747977592956,0.0,0.11000025557120807
+[17:12:12] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! -12.909015713816189,0.0,0.24639553917768353
+[17:12:12] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! -13.207282361525586,0.0,0.3937514840761196
+[17:12:12] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! -13.239118159699728,0.0,0.5505892186328083
+[17:12:12] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! -13.300280520070828,0.0,0.7150474782398533
+[17:12:12] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! -13.38880744736025,0.0,0.8849467875434129
+[17:12:12] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! -13.502782934708193,0.0,1.058433426815668
+[17:12:12] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! -13.640357342903144,0.0,1.2339426859216474
+[17:12:12] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! -13.799759036163323,0.0,1.4101692108447423
+[17:12:12] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! -13.979306005456237,0.0,1.586031127131605
+[17:12:12] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! -14.177410495680078,0.0,1.7606426162219577
+[17:12:12] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! -10.106765791430007,0.0,-0.32433278753592276
+[17:12:17] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! -9.980293385795449,0.0,1.7681183955107826
+[17:12:17] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! -10.376467307523171,0.0,1.8006336313610518
+[17:12:17] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! -10.77287992995025,0.0,1.8332872042858526
+[17:12:17] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! -11.169418426793982,0.0,1.866985192584707
+[17:12:17] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! -11.565971944902003,0.0,1.902449502780314
+[17:12:17] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! -11.96243659999459,0.0,1.9402403934673202
+[17:12:17] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! -12.358716549289056,0.0,1.9807919752968246
+[17:12:17] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! -12.754726674222184,0.0,2.0244251754855895
+[17:12:17] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! -13.1503931508812,0.0,2.071366979388813
+[17:12:17] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! -13.545653244410005,0.0,2.121767697623909
+[17:12:17] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! -13.940455321416039,0.0,2.1757126950440124
+[17:12:17] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! -14.334758510958409,0.0,2.2332329156142805
+[17:12:17] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! -14.728531177542436,0.0,2.2943180433035195
+[17:12:17] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! -15.121750079531239,0.0,2.3589245573346034
+[17:12:17] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! -15.514399391924144,0.0,2.4269829446573112
+[17:12:17] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! -15.906470627794306,0.0,2.49840044818734
+[17:12:17] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! -16.298136911168967,0.0,2.572391686910805
+[17:12:17] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! -16.68969465730015,0.0,2.64761309411017
+[17:12:17] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! -17.081486557598964,0.0,2.7222717133010974
+[17:12:17] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! -17.473726534887874,0.0,2.794912290950265
+[17:12:17] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! -17.866534174792605,0.0,2.8643659400312345
+[17:12:17] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! -18.259959869013755,0.0,2.9297173575847637
+[17:12:17] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! -18.654005596525167,0.0,2.990262656282539
+[17:12:17] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! -19.048640173309877,0.0,3.0454781898959027
+[17:12:17] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! -19.443810876056432,0.0,3.0949919266994357
+[17:12:17] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! -19.839452167501804,0.0,3.138561138239311
+[17:12:17] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! -20.23549193246231,0.0,3.176044403128685
+[17:12:17] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! -20.631856609699753,0.0,3.2073954139849548
+[17:12:17] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! -21.028473873449457,0.0,3.2326343205960484
+[17:12:17] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! -21.4252752516868,0.0,3.251841033793994
+[17:12:17] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! -21.822197044604536,0.0,3.2651376990864946
+[17:12:17] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! -22.21918165788179,0.0,3.2726843747010435
+[17:12:17] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! -22.616178143250636,0.0,3.2746713150201003
+[17:12:17] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! -23.01314138487828,0.0,3.271304424916707
+[17:12:17] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! -13.82565572752469,0.0,1.528877467304028
+[17:12:17] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! -14.222763560723479,0.0,1.518115685422913
+[17:12:17] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! -14.620062405313547,0.0,1.5056290264321888
+[17:12:17] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! -15.017583362163123,0.0,1.492432157022904
+[17:12:17] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! -15.41533420490282,0.0,1.4793548150903462
+[17:12:17] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! -15.813306652384199,0.0,1.4670713382669192
+[17:12:17] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! -16.211481721800283,0.0,1.4561159180649383
+[17:12:17] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! -16.609833898293573,0.0,1.4469117875705706
+[17:12:17] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! -17.008334194698364,0.0,1.4397822307049637
+[17:12:17] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! -17.366984451961798,0.0,1.4333656296959134
+[17:12:17] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! -17.68976967494791,0.0,1.427590688940768
+[17:12:17] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! -17.980276367939723,0.0,1.4223932423988117
+[17:12:17] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! -18.241732384705983,0.0,1.4177155406349584
+[17:12:17] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! -18.477042793562077,0.0,1.413505609159074
+[17:12:17] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! -18.688822155922253,0.0,1.4097166709310613
+[17:12:17] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! -18.87942357699717,0.0,1.4063066266162423
+[17:12:17] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! -19.050964851420304,0.0,1.4032375868141571
+[17:12:17] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! -19.205351994311286,0.0,1.4004754510655175
+[17:12:17] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! -19.34430041923224,0.0,1.3979895289575097
+[17:12:17] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! -19.469353998348424,0.0,1.39575219911967
+[17:12:17] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! -19.581902216571507,0.0,1.3937386023188765
+[17:12:17] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! -19.683195610288976,0.0,1.3919263652461495
+[17:12:17] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! -19.774359662219695,0.0,1.3902953519238963
+[17:12:17] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! -19.856407306783694,0.0,1.3888274399728289
+[17:12:17] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! -19.930250184935176,0.0,1.3875063192518837
+[17:12:17] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! -19.996708773511045,0.0,1.3863173106344675
+[17:12:17] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! -20.05652150164474,0.0,1.3852472029071805
+[17:12:17] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! -20.11035295553893,0.0,1.3842841059781676
+[17:12:17] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! -20.158801262760335,0.0,1.3834173187649412
+[17:12:17] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! -20.202404738104406,0.0,1.3826372102937512
+[17:12:17] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! -20.241647864874494,0.0,1.3819351126882111
+[17:12:17] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! -20.276966678032068,0.0,1.381303224860062
+[17:12:17] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! -20.308753609031783,0.0,1.38073452582978
+[17:12:17] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! -20.342305382768245,0.0,1.380971993341177
+[17:12:21] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! -9.999150357558165,0.0,1.86154270885811
+[17:12:21] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! -10.27102234891754,0.0,1.8754075853457834
+[17:12:21] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! -10.55561107342919,0.0,1.8906564242859076
+[17:12:21] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! -10.851635618754926,0.0,1.907280889529261
+[17:12:21] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! -11.157943893977745,0.0,1.9252581519987189
+[17:12:21] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! -11.473499285520347,0.0,1.9445599942214358
+[17:12:21] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! -11.797369794862789,0.0,1.9651457078996373
+[17:12:21] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! -12.128717040591255,0.0,1.9869709945068053
+[17:12:21] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! -12.466786952565599,0.0,2.0099883287342664
+[17:12:21] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! -12.810901378042217,0.0,2.0341472834981005
+[17:12:21] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! -13.160450538361602,0.0,2.05939482430756
+[17:12:21] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! -13.514885878613995,0.0,2.085679391920621
+[17:12:21] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! -13.873714310341256,0.0,2.112946937328047
+[17:12:21] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! -14.236492344515455,0.0,2.1411449914811556
+[17:12:21] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! -14.60282149667296,0.0,2.17021869073551
+[17:12:21] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! -14.972343093553263,0.0,2.200118654552739
+[17:12:21] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! -15.344735014684147,0.0,2.2307928010434352
+[17:12:21] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! -15.679887734823296,0.0,2.258399532153703
+[17:12:30] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! -10.085988139082247,0.0,0.623526067383068
+[17:12:30] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! -10.40533592288989,0.0,0.6432685474349
+[17:12:30] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! -10.692748920702797,0.0,0.6610367790108285
+[17:12:30] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! -10.951420611881986,0.0,0.6770281870055896
+[17:12:30] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! -11.184225127776017,0.0,0.6914204538195463
+[17:12:30] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! -11.393749186530158,0.0,0.704373493608955
+[17:12:30] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! -11.582320834413395,0.0,0.7160312291106266
+[17:12:30] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! -11.752035313012584,0.0,0.726523190784178
+[17:12:30] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! -11.904778339705445,0.0,0.7359659560402179
+[17:12:30] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! -12.042247060087448,0.0,0.7444644445455424
+[17:12:30] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! -12.165968905153704,0.0,0.7521130839977559
+[17:12:30] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! -12.27731856276364,0.0,0.7589968593223375
+[17:12:30] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! -12.382528347966854,0.0,0.765413653019209
+[17:12:30] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! -12.482216842830667,0.0,0.771244372848173
+[17:12:30] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! -12.576933202807368,0.0,0.7763108587421357
+[17:12:30] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! -12.667154778722079,0.0,0.7803901523366221
+[17:12:30] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! -12.753284065261369,0.0,0.7832270236825707
+[17:12:30] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! -12.835645645879822,0.0,0.784545786669014
+[17:12:30] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! -12.914483932160692,0.0,0.7840626750446518
+[17:12:30] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! -12.985438387933755,0.0,0.7836278745942309
+[17:12:30] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! -13.04929739643785,0.0,0.7832365541992203
+[17:12:30] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! -13.140605615617687,0.0,0.761549300488241
+[17:12:30] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! -13.255284212779088,0.0,0.7187140037360678
+[17:12:30] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! -13.389695658174332,0.0,0.6551319469723467
+[17:12:30] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! -13.540618705435463,0.0,0.5713971062448309
+[17:12:30] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! -13.705220252502613,0.0,0.46824653696057794
+[17:12:30] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! -13.881020930477462,0.0,0.34651528946073995
+[17:12:30] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! -14.065864338482697,0.0,0.20710375486896737
+[17:12:30] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! -14.257885581316714,0.0,0.05095028242465105
+[17:12:30] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! -14.455479894881137,0.0,-0.1209914923758788
+[17:12:30] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! -14.657274992074235,0.0,-0.30776888198874985
+[17:12:30] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! -14.862101273475673,0.0,-0.5084455659984997
+[17:12:30] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! -15.068972894089711,0.0,-0.7221074198868109
+[17:12:30] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! -15.277060275838949,0.0,-0.9478733935629862
+[17:12:30] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! -15.485673979816966,0.0,-1.1848978775374235
+[17:12:30] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! -15.694246410146434,0.0,-1.432374311418016
+[17:12:30] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! -15.902311495502545,0.0,-1.689539724232759
+[17:12:30] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! -16.109495847956623,0.0,-1.9556723498902784
+[17:12:30] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! -16.316109920161807,0.0,-2.2297467581126966
+[17:12:30] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! -16.523006974391592,0.0,-2.5104920450546615
+[17:12:30] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! -16.731446692441978,0.0,-2.796415188573178
+[17:12:30] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! -16.942409030267527,0.0,-3.086211409234579
+[17:12:30] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! -17.156638768113908,0.0,-3.378752014308702
+[17:12:30] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! -17.374687621018438,0.0,-3.6730681600013213
+[17:12:30] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! -17.59694506393339,0.0,-3.9683385154785356
+[17:12:30] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! -17.823671038284374,0.0,-4.263871346933229
+[17:12:30] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! -18.05501861343373,0.0,-4.559091721791788
+[17:12:30] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! -18.291059234185923,0.0,-4.8535235365728795
+[17:12:30] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! -18.531793613882883,0.0,-5.1467828712530945
+[17:12:30] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! -18.777169351986913,0.0,-5.438563350621507
+[17:12:30] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 9288ms or 185 ticks behind
+[17:12:39] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! -7.564624736289716,0.0,-7.0859633900000745
+[17:12:39] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! -7.824848669319863,0.0,-7.3766224485613066
+[17:12:39] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! -8.085159687798523,0.0,-7.668518971994672
+[17:12:39] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! -8.345531646957397,0.0,-7.961544226703381
+[17:12:39] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! -8.605943916644264,0.0,-8.255597845332545
+[17:12:39] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! -8.866377922272022,0.0,-8.550589487951811
+[17:12:39] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! -9.126819854301857,0.0,-8.846435345231157
+[17:12:39] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! -9.38725727669862,0.0,-9.143059985050058
+[17:12:39] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! -9.647681904619958,0.0,-9.440393015106906
+[17:12:39] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! -9.908083368530924,0.0,-9.738373580138955
+[17:12:39] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! -10.168458160341743,0.0,-10.036941912934367
+[17:12:44] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! -7.059825755425209,0.0,-7.265699009454352
+[17:12:44] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! -7.283822119675278,0.0,-7.365055938724026
+[17:12:44] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! -7.525058039449732,0.0,-7.459837599544699
+[17:12:44] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! -7.781884377515553,0.0,-7.549915700672841
+[17:12:44] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! -8.05280178572366,0.0,-7.635234755769147
+[17:12:44] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! -8.336448855340677,0.0,-7.715797536727564
+[17:12:44] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! -8.631590863752535,0.0,-7.7916518647909925
+[17:12:44] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! -8.937108867911547,0.0,-7.8628824632127134
+[17:12:44] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! -9.25198933709612,0.0,-7.929607400932014
+[17:12:44] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! -9.575315366287668,0.0,-7.991963374216311
+[17:12:44] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! -9.906257546314464,0.0,-8.05010773871868
+[17:12:44] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! -10.244066268522147,0.0,-8.10420883393499
+[17:12:44] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! -10.588064404096258,0.0,-8.154441087468058
+[17:12:44] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! -10.937640328022553,0.0,-8.200988262939745
+[17:12:44] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! -11.292241998279906,0.0,-8.244034880114327
+[17:12:44] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! -11.651371347716804,0.0,-8.283762317485639
+[17:12:44] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! -12.014579016947891,0.0,-8.320352968808038
+[17:12:44] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! -12.381459755522656,0.0,-8.353986314300528
+[17:12:44] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! -12.751648163767868,0.0,-8.384839216482192
+[17:12:44] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! -13.124814938676536,0.0,-8.413078515876805
+[17:12:44] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! -13.500663260515694,0.0,-8.438869704429521
+[17:12:44] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! -13.878925704685344,0.0,-8.462369392407595
+[17:12:44] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! -14.259361358083652,0.0,-8.483726197514216
+[17:12:44] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! -14.641753212660433,0.0,-8.503081544669044
+[17:12:44] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! -15.025905812163728,0.0,-8.520570385744918
+[17:12:44] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! -15.411643137938427,0.0,-8.536321847152294
+[17:12:44] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! -15.79880670241846,0.0,-8.55045981252988
+[17:12:44] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! -16.18725380346814,0.0,-8.563095777217882
+[17:12:44] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! -16.576855971916075,0.0,-8.574337756992236
+[17:12:44] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! -16.967497559433696,0.0,-8.584286801147755
+[17:12:44] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! -17.359071871099786,0.0,-8.59373947151289
+[17:12:44] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! -17.751448657245646,0.0,-8.604037198842207
+[17:12:44] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! -18.144420559774062,0.0,-8.616958598241354
+[17:12:44] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! -18.537641253207084,0.0,-8.634597396516142
+[17:12:44] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! -18.93056037272413,0.0,-8.659270036480166
+[17:12:44] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! -19.32236585836813,0.0,-8.693409326245273
+[17:12:44] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! -19.712194761128103,0.0,-8.738827001120399
+[17:12:44] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! -20.063040764317975,0.0,-8.77970290742519
+[17:12:44] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! -20.378802158823873,0.0,-8.81649122212491
+[17:12:44] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! -20.662987406350794,0.0,-8.849600704477552
+[17:12:44] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! -20.918754122349583,0.0,-8.879399237805615
+[17:12:44] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! -14.294062628769325,0.0,-1.7442424454505954
+[17:12:44] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! -14.501233657751982,0.0,-1.7683792561674636
+[17:12:44] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! -14.687687578897112,0.0,-1.790102385237219
+[17:12:44] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! -14.85549610348221,0.0,-1.8096532008820532
+[17:12:44] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! -15.006523771608045,0.0,-1.8272489344963105
+[17:12:44] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! -15.170174375197348,0.0,-1.8719171127049776
+[17:12:44] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! -15.344517748495718,0.0,-1.9415781664282576
+[17:12:44] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! -15.52786878095003,0.0,-2.03428678612579
+[17:12:46] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! -9.816464040705569,0.0,-3.0682894537414995
+[17:12:46] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! -10.172071586253423,0.0,-3.2312142806384827
+[17:12:46] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! -10.522722589694922,0.0,-3.4036028180115636
+[17:12:46] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! -10.868064708214888,0.0,-3.5854838861806684
+[17:12:46] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! -11.208314136534227,0.0,-3.776254441693709
+[17:12:46] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! -11.544168930330898,0.0,-3.9748188192456837
+[17:12:48] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! -9.329854496661255,0.0,-4.291726751913188
+[17:12:48] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! -9.67272732286483,0.0,-4.488388316765395
+[17:12:48] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! -10.011530965899283,0.0,-4.691591845498465
+[17:12:48] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! -10.346271890372464,0.0,-4.9011378635407254
+[17:12:48] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! -10.676990624823702,0.0,-5.116795578199799
+[17:12:48] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! -11.003757654975516,0.0,-5.338310411906377
+[17:12:48] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! -11.326664037278533,0.0,-5.565416042242418
+[17:12:48] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! -11.645817795842731,0.0,-5.797839327793781
+[17:12:48] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! -11.961343155131772,0.0,-6.035301839416206
+[17:12:48] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! -12.273374274489242,0.0,-6.277526539462883
+[17:12:51] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! -9.5418112071402,0.0,-3.537090656147484
+[17:12:51] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! -9.895917928485687,0.0,-3.7123770292535028
+[17:12:51] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! -10.24815758951263,0.0,-3.8919252522867964
+[17:12:51] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! -10.597578078778497,0.0,-4.076969205878527
+[17:12:51] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! -10.942925774942523,0.0,-4.268946694023384
+[17:12:54] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! -7.683975411544907,0.0,-6.471637672738211
+[17:12:54] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! -7.959271566537609,0.0,-6.662877957303067
+[17:12:54] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! -8.242470996975499,0.0,-6.853555180916715
+[17:12:54] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! -8.532313470732788,0.0,-7.044596330124136
+[17:12:54] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! -8.827691921391306,0.0,-7.2367411244368895
+[17:12:54] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! -9.127640931462338,0.0,-7.430566798500195
+[17:12:54] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! -9.431321300891568,0.0,-7.626516617964626
+[17:12:54] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! -9.738007015530684,0.0,-7.824921775638245
+[17:12:54] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! -10.04707051245282,0.0,-8.026023891991258
+[17:12:54] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! -10.357975148233663,0.0,-8.229985369375754
+[17:12:54] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! -10.670263670658642,0.0,-8.436904840788543
+[17:12:54] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! -10.983547321719925,0.0,-8.646830768283394
+[17:12:54] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! -11.297074167264327,0.0,-8.860324959313175
+[17:12:54] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! -11.609765941745081,0.0,-9.07832847112877
+[17:12:54] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! -11.920237624226502,0.0,-9.302029808474572
+[17:12:54] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! -12.227313109473698,0.0,-9.53226469785045
+[17:12:54] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! -12.530013519707836,0.0,-9.76958589878575
+[17:12:54] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! -12.827548884969247,0.0,-10.01431560317144
+[17:12:54] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! -13.119293997808654,0.0,-10.266599829171469
+[17:12:54] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! -13.404774479543448,0.0,-10.526444909057318
+[17:12:54] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! -13.661706906298377,0.0,-10.76030547475932
+[17:12:54] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! -13.892946084252117,0.0,-10.970779978315477
+[17:12:54] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! -14.101061338897125,0.0,-11.160207026497915
+[17:12:54] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! -14.288365063115862,0.0,-11.330691365345842
+[17:12:54] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! -14.456938410447037,0.0,-11.484127266244286
+[17:12:54] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! -14.608654419025925,0.0,-11.62221957339466
+[17:12:55] [User Authenticator #2/INFO]: UUID of player LuckMaster123 is 87211ff0-269b-4055-9e19-6ebd78327146
+[17:12:56] [Server thread/INFO]: LuckMaster123[/129.97.125.1:63379] logged in with entity id 1208 at (-1127.141989142467, 69.0, 117.29571702648518)
+[17:12:56] [Server thread/INFO]: LuckMaster123 joined the game
+[17:13:23] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 37998ms or 759 ticks behind
+[17:13:30] [Server thread/WARN]: LuckMaster123 moved too quickly! 10.167255122205688,-0.41999998688697815,-0.6742841360502894
+[17:13:34] [Server thread/WARN]: Never_Lucky123 moved too quickly! -4.1850908222668295,0.001335979112141672,-9.352919239782182
+[17:13:43] [Server thread/WARN]: LuckMaster123 moved too quickly! 6.008069379221979,1.0,8.177291284050824
+[17:13:47] [Server thread/WARN]: Never_Lucky123 moved too quickly! 9.267896444237067,2.5,-2.863298560722683
+[17:13:57] [Server thread/WARN]: LuckMaster123 moved too quickly! 6.047843617850731,-1.6956831725424593,7.8400565386684775
+[17:13:57] [Server thread/WARN]: Never_Lucky123 moved too quickly! -9.139135200146711,-1.3857407249357578,4.448666814936928
+[17:14:04] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 25903ms or 518 ticks behind
+[17:14:12] [Server thread/WARN]: LuckMaster123 moved too quickly! 6.192438074408642,0.41999998688697815,8.176920454011082
+[17:14:24] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5551ms or 111 ticks behind
+[17:29:31] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! -7.442712604590838,0.0,7.15153442339988
+[17:29:31] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! -7.7689731594985005,0.0,7.3779179282321365
+[17:29:31] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! -8.095925973288558,0.0,7.60379652441361
+[17:29:31] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! -8.423214726834203,0.0,7.829646907696542
+[17:29:31] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! -8.75054409843142,0.0,8.05585041680547
+[17:29:31] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! -9.077668534330428,0.0,8.282712931037167
+[17:29:31] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! -9.404390632151035,0.0,8.510470039470192
+[17:29:31] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! -9.73055052919301,0.0,8.739304038865157
+[17:29:31] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! -10.056022863722546,0.0,8.969349754635914
+[17:29:31] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! -10.380282603085334,0.0,9.201253311296114
+[17:29:31] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! -10.702449756828287,0.0,9.436041111823897
+[17:29:31] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! -11.021317129471527,0.0,9.674987245174634
+[17:29:31] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! -11.335868265668523,0.0,9.919019215786193
+[17:29:31] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! -11.645270770228876,0.0,10.16878050073683
+[17:29:31] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! -11.948858913514641,0.0,10.424689425363795
+[17:29:31] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! -12.24612209088059,0.0,10.686982031565776
+[17:29:39] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! -7.570835397579458,0.0,6.756948706937919
+[17:29:39] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! -7.811022075122651,0.0,7.072330168896997
+[17:29:39] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! -8.051895969751172,0.0,7.387631683615837
+[17:29:39] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! -8.29463763770434,0.0,7.701838696473942
+[17:29:39] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! -8.54014884074354,0.0,8.014097662691029
+[17:29:39] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! -8.789101551728095,0.0,8.32370365486463
+[17:29:39] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! -9.041977708492936,0.0,8.63008856528063
+[17:29:39] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! -9.29910881262333,0.0,8.932802301666698
+[17:29:39] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! -9.560704669112852,0.0,9.231499108099342
+[17:29:39] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! -9.826875634798625,0.0,9.525926580022997
+[17:29:39] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! -10.097651794448552,0.0,9.815914658318889
+[17:29:39] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! -10.372570233194665,0.0,10.101910275726596
+[17:29:39] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! -10.650773204866937,0.0,10.384856550324457
+[17:29:39] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! -10.931067919827228,0.0,10.66606509980079
+[17:29:39] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! -11.212437555172187,0.0,10.946592428460008
+[17:29:39] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! -11.494024907890548,0.0,11.227280697355354
+[17:29:39] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! -11.775115577915699,0.0,11.508793216003141
+[17:29:39] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! -12.055123922521261,0.0,11.791642691297284
+[17:29:39] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! -12.333573426632825,0.0,12.076220885325938
+[17:29:39] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2134ms or 42 ticks behind
+[17:32:51] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! -10.377794913071511,0.0,-0.46496695714677116
+[17:32:51] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! -10.776982671507767,0.0,-0.4889572350450635
+[17:32:51] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! -11.176168655397078,0.0,-0.5131237896391667
+[17:32:51] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! -11.57535304219391,0.0,-0.5374489932555662
+[17:32:51] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! -11.974535742013359,0.0,-0.5619208082580371
+[17:32:51] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! -12.373716923553047,0.0,-0.5865245735046756
+[17:32:51] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! -12.772896492771906,0.0,-0.6112509207723633
+[17:32:51] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! -13.172074610901973,0.0,-0.6360875918560396
+[17:32:51] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! -13.571251177183058,0.0,-0.6610273814087577
+[17:32:51] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! -13.970426346800195,0.0,-0.6860599775811806
+[17:32:51] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! -14.369600259419713,0.0,-0.7111760997090641
+[17:32:51] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! -14.768772791147057,0.0,-0.7363712219994341
+[17:33:01] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! -9.792475102327899,0.0,-2.3836794205981278
+[17:33:01] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! -10.061711521787174,0.0,-2.4492555711365185
+[17:33:01] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! -10.342888078446322,0.0,-2.5177401459370685
+[17:33:01] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! -10.634810758300773,0.0,-2.5888423025041902
+[17:33:01] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! -10.93640494877468,0.0,-2.662300282598835
+[17:33:01] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2726ms or 54 ticks behind
+[17:33:03] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! -10.101102329268542,0.0,-2.460317004188255
+[17:33:13] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! 0.6612700605571717,0.0,-10.113792820163553
+[17:33:13] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! 0.6723967532502684,0.0,-10.284829793589324
+[17:33:13] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! 0.6824107764086875,0.0,-10.438763065594685
+[17:33:13] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! 0.6914233970126133,0.0,-10.57730300672938
+[17:33:13] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! 0.6995347553411193,0.0,-10.701988950447458
+[17:33:13] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! 0.7094102827011284,0.0,-10.854123307635064
+[17:33:13] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! 0.7208735621472897,0.0,-11.03096123629075
+[17:33:13] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! 0.7337658184333122,0.0,-11.230032378678516
+[17:33:13] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! 0.7479441538409901,0.0,-11.449113412895258
+[17:33:13] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! 0.7632799604275533,0.0,-11.686203349280959
+[17:33:13] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! 0.7796574910476011,0.0,-11.939501297189508
+[17:33:13] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! 0.7969725732727966,0.0,-12.207386455082087
+[17:33:13] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! 0.8151314519202515,0.0,-12.488400101612342
+[17:33:13] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! 0.8340497473277537,0.0,-12.781229387603616
+[17:33:13] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! 0.8536515178011541,0.0,-13.084692748828274
+[17:33:13] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! 0.8738684158176966,0.0,-13.397726777509206
+[17:33:13] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! 0.894638928608174,0.0,-13.719374406672614
+[17:33:13] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! 0.9159076946821187,0.0,-14.048774276064933
+[17:33:13] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! 0.9376248886992471,0.0,-14.385151161478461
+[17:33:13] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! 0.9597456678545768,0.0,-14.727807361144869
+[17:33:13] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! 0.9822296736247154,0.0,-15.076114943489074
+[17:33:13] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! 1.0050405833394507,0.0,-15.429508770108441
+[17:33:13] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! 1.0281418795591435,0.0,-15.787480462323401
+[17:33:13] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! 1.0515045236265905,0.0,-16.14957223346528
+[17:33:13] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! 1.07510238075065,0.0,-16.515372075543155
+[17:33:19] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! 5.108051027113561,0.0,-8.644069944872399
+[17:33:19] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! 5.243937900388801,0.0,-8.984058477330336
+[17:33:19] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! 5.376567851639265,0.0,-9.328690800769209
+[17:33:19] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! 5.505505139640491,0.0,-9.677698117446425
+[17:33:19] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! 5.6304287009857035,0.0,-10.030806557584583
+[17:33:19] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! 5.751118094155345,0.0,-10.387742391617849
+[17:33:27] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! 5.3794340938979985,0.0,-8.590038121014004
+[17:33:27] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! 5.584491744616571,0.0,-8.92819792239652
+[17:33:27] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! 5.79156526089173,0.0,-9.265598896253778
+[17:33:27] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! 6.000617579840537,0.0,-9.602204235325189
+[17:33:27] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! 5.386619003418673,0.0,-8.58748533699827
+[17:33:29] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 13326ms or 266 ticks behind
+[17:33:33] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! 5.261239585022167,0.0,-8.898399995499858
+[17:33:42] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! 3.3603379648059217,0.0,-9.606024858391947
+[17:33:42] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! 3.3763919355121743,0.0,-9.99659937772958
+[17:33:43] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! 3.3908405087649953,0.0,-10.348116435821339
+[17:33:43] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! 3.403844224348177,0.0,-10.664481779723019
+[17:33:43] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! 3.415547568062948,0.0,-10.949210581691887
+[17:33:43] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! 3.4260805771270952,0.0,-11.205466496675399
+[17:33:43] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! 3.4355602850337164,0.0,-11.43609681405087
+[17:33:43] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! 3.4440920219237796,0.0,-11.643664094190171
+[17:33:43] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! 3.4517705849214053,0.0,-11.830474641366663
+[17:33:43] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! 3.458681291436278,0.0,-11.998604129371643
+[17:33:43] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! 3.4649009271347495,0.0,-12.149920664567617
+[17:33:43] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! 3.470498599115217,0.0,-12.286105542636278
+[17:33:43] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! 3.475536503764033,0.0,-12.408671929651291
+[17:33:43] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! 3.480070617828005,0.0,-12.518981675042596
+[17:33:43] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! 3.48415132037735,0.0,-12.618260443264717
+[17:33:43] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! 3.4878239525744448,0.0,-12.707611332297574
+[17:33:43] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! 3.4911293214643138,0.0,-12.788027130296996
+[17:33:43] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! 3.494104153386388,0.0,-12.860401346579238
+[17:33:43] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! 3.496781502045451,0.0,-12.92553813950758
+[17:33:43] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! 3.4991911157746927,0.0,-12.984161251590194
+[17:33:43] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! 3.5013597680735984,0.0,-13.036922051066767
+[17:33:43] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! 3.5033115550909315,0.0,-13.084406769337875
+[17:33:43] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! 3.505068163359965,0.0,-13.127143014649619
+[17:33:43] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! 3.506649110760236,0.0,-13.16560563441135
+[17:33:43] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved too quickly! 3.5080719633826902,0.0,-13.200221991279932
+[17:41:01] [Server thread/INFO]: LuckMaster123 lost connection: Disconnected
+[17:41:01] [Server thread/INFO]: LuckMaster123 left the game
+[17:41:23] [User Authenticator #3/INFO]: UUID of player LuckMaster123 is 87211ff0-269b-4055-9e19-6ebd78327146
+[17:41:23] [Server thread/INFO]: LuckMaster123[/129.97.125.1:32422] logged in with entity id 18037 at (-97.30942819266104, 67.0, 60.29475783524172)
+[17:41:23] [Server thread/INFO]: LuckMaster123 joined the game
+[17:44:53] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved wrongly! 0.334772961765168
+[17:44:53] [Server thread/WARN]: Boat (vehicle of Never_Lucky123) moved wrongly! 0.25240127598340223
+[17:52:24] [Server thread/INFO]: LuckMaster123 was shot by Skeleton
+[17:53:43] [Server thread/INFO]: LuckMaster123 was slain by Iron Golem
+[18:02:18] [Server thread/INFO]: Never_Lucky123 lost connection: Disconnected
+[18:02:18] [Server thread/INFO]: Never_Lucky123 left the game
+[18:08:36] [Server thread/INFO]: LuckMaster123 lost connection: Disconnected
+[18:08:36] [Server thread/INFO]: LuckMaster123 left the game
+[23:21:28] [User Authenticator #4/INFO]: UUID of player LuckMaster123 is 87211ff0-269b-4055-9e19-6ebd78327146
+[23:21:28] [Server thread/INFO]: LuckMaster123[/129.97.125.3:59093] logged in with entity id 28570 at (-68.67480127955128, 64.0, 41.25038666887233)
+[23:21:28] [Server thread/INFO]: LuckMaster123 joined the game
+[23:22:11] [User Authenticator #5/INFO]: UUID of player Never_Lucky123 is fdeaf439-d900-47e4-8e38-2d67e341266d
+[23:22:11] [Server thread/INFO]: Never_Lucky123[/129.97.131.0:55186] logged in with entity id 28699 at (-86.52666799778888, 67.0, 55.35740196618372)
+[23:22:11] [Server thread/INFO]: Never_Lucky123 joined the game
+[00:17:21] [Server thread/INFO]: Villager bnw['Leatherworker'/46447, l='ServerLevel[world]', x=-448.30, y=77.97, z=344.62] died, message: 'Leatherworker was slain by Zombie'
+[01:04:00] [Server thread/WARN]: LuckMaster123 moved too quickly! 9.623170211939168,-2.5339126878029674,-1.9084135496079853
+[01:04:10] [Server thread/WARN]: Never_Lucky123 moved too quickly! 7.178860151211438,-0.2712241076924897,-7.057255721358189
+[01:04:10] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2820ms or 56 ticks behind
+[01:05:22] [Server thread/WARN]: Horse (vehicle of Never_Lucky123) moved too quickly! -4.40109922472152,0.0,-9.112747547422742
+[01:05:22] [Server thread/WARN]: Horse (vehicle of Never_Lucky123) moved too quickly! -4.876318121649319,0.0,-9.503653515122409
+[01:05:22] [Server thread/WARN]: Horse (vehicle of Never_Lucky123) moved too quickly! -5.353665799649889,0.0,-9.892864255130405
+[01:07:08] [Server thread/WARN]: Horse (vehicle of Never_Lucky123) moved too quickly! 9.57132265800692,2.0,2.3289169853417064
+[01:07:08] [Server thread/WARN]: Horse (vehicle of Never_Lucky123) moved too quickly! 10.16820873931647,2.0,2.483480279871685
+[01:07:08] [Server thread/WARN]: Horse (vehicle of Never_Lucky123) moved too quickly! 10.764911883157765,3.0,2.6387659018131586
+[01:07:08] [Server thread/WARN]: Horse (vehicle of Never_Lucky123) moved too quickly! 9.570699946316836,2.0,2.331375758426418
+[01:07:41] [Server thread/WARN]: Horse (vehicle of Never_Lucky123) moved too quickly! 9.201483914452865,2.0,3.532431982928351
+[01:07:41] [Server thread/WARN]: Horse (vehicle of Never_Lucky123) moved too quickly! 9.763967144901926,2.0,3.784952991580621
+[01:07:41] [Server thread/WARN]: Horse (vehicle of Never_Lucky123) moved too quickly! 10.326269804632147,2.0,4.037895281517095
+[01:07:41] [Server thread/WARN]: Horse (vehicle of Never_Lucky123) moved too quickly! 10.888475844571076,2.0,4.2910629906693
+[01:08:48] [Server thread/WARN]: Horse (vehicle of Never_Lucky123) moved wrongly! 0.3279555892070576
+[01:08:48] [Server thread/WARN]: Horse (vehicle of Never_Lucky123) moved wrongly! 0.3113324741073171
+[01:11:23] [Server thread/WARN]: Horse (vehicle of Never_Lucky123) moved too quickly! 6.47412668017887,1.0,7.589424002263224
+[01:11:23] [Server thread/WARN]: Horse (vehicle of Never_Lucky123) moved too quickly! 6.926849733408972,0.9231679985046384,8.00795822493783
+[01:12:32] [Server thread/WARN]: Horse (vehicle of Never_Lucky123) moved wrongly! 0.2771669439023299
+[01:12:32] [Server thread/WARN]: Horse (vehicle of Never_Lucky123) moved wrongly! 0.5234540968485817
+[01:12:32] [Server thread/WARN]: Horse (vehicle of Never_Lucky123) moved wrongly! 0.5547247907512656
+[01:12:32] [Server thread/WARN]: Horse (vehicle of Never_Lucky123) moved wrongly! 0.5716444850565949
+[01:12:32] [Server thread/WARN]: Horse (vehicle of Never_Lucky123) moved wrongly! 0.5806978761370374
+[01:12:32] [Server thread/WARN]: Horse (vehicle of Never_Lucky123) moved wrongly! 0.5855421651990582
+[01:12:32] [Server thread/WARN]: Horse (vehicle of Never_Lucky123) moved wrongly! 0.5881342476914142
+[01:12:32] [Server thread/WARN]: Horse (vehicle of Never_Lucky123) moved wrongly! 0.5893338498842695
+[01:12:32] [Server thread/WARN]: Horse (vehicle of Never_Lucky123) moved wrongly! 1.0
+[01:12:32] [Server thread/WARN]: Horse (vehicle of Never_Lucky123) moved wrongly! 0.27159128459891235
+[01:12:32] [Server thread/WARN]: Horse (vehicle of Never_Lucky123) moved wrongly! 0.4199580215192782
+[01:12:32] [Server thread/WARN]: Horse (vehicle of Never_Lucky123) moved wrongly! 0.4993461043317211
+[01:12:32] [Server thread/WARN]: Horse (vehicle of Never_Lucky123) moved wrongly! 0.547558870564103
+[01:12:32] [Server thread/WARN]: Horse (vehicle of Never_Lucky123) moved wrongly! 0.5720715094181514
+[01:12:32] [Server thread/WARN]: Horse (vehicle of Never_Lucky123) moved wrongly! 0.5585421755561129
+[01:12:32] [Server thread/WARN]: Horse (vehicle of Never_Lucky123) moved wrongly! 0.5390672248083774
+[01:12:32] [Server thread/WARN]: Horse (vehicle of Never_Lucky123) moved wrongly! 0.4379328136553795
+[01:12:51] [Server thread/WARN]: Horse (vehicle of Never_Lucky123) moved wrongly! 0.38946167825349676
+[01:13:08] [Server thread/WARN]: Horse (vehicle of Never_Lucky123) moved wrongly! 0.35242602883681684
+[01:14:03] [Server thread/WARN]: Horse (vehicle of Never_Lucky123) moved wrongly! 0.2642153915303709
+[01:14:14] [Server thread/WARN]: Horse (vehicle of Never_Lucky123) moved wrongly! 0.4646940461120721
+[01:25:36] [Server thread/INFO]: LuckMaster123 lost connection: Disconnected
+[01:25:36] [Server thread/INFO]: LuckMaster123 left the game
+[01:31:28] [Server thread/INFO]: Never_Lucky123 lost connection: Disconnected
+[01:31:28] [Server thread/INFO]: Never_Lucky123 left the game
+[05:06:22] [User Authenticator #6/INFO]: UUID of player Never_Lucky123 is fdeaf439-d900-47e4-8e38-2d67e341266d
+[05:06:22] [Server thread/INFO]: Never_Lucky123[/129.97.131.0:55192] logged in with entity id 84108 at (-82.0738640339328, 66.0, 61.65895480523044)
+[05:06:22] [Server thread/INFO]: Never_Lucky123 joined the game
+[05:18:16] [User Authenticator #7/INFO]: UUID of player LuckMaster123 is 87211ff0-269b-4055-9e19-6ebd78327146
+[05:18:16] [Server thread/INFO]: LuckMaster123[/129.97.125.3:53710] logged in with entity id 86234 at (-69.36132416341027, 64.0, 53.717203293188724)
+[05:18:16] [Server thread/INFO]: LuckMaster123 joined the game
+[05:22:01] [Server thread/INFO]: LuckMaster123 has made the advancement [Enchanter]
+[05:58:28] [Server thread/INFO]: Never_Lucky123 has made the advancement [Not Quite "Nine" Lives]
+[06:30:59] [Server thread/WARN]: vorse (vehicle of Never_Lucky123) moved wrongly! 0.48933638293192416
+[06:40:52] [Server thread/WARN]: vorse (vehicle of Never_Lucky123) moved wrongly! 0.38864454802217097
+[06:53:11] [Server thread/WARN]: vorse (vehicle of Never_Lucky123) moved wrongly! 0.5825355018573646
+[06:53:24] [Server thread/WARN]: vorse (vehicle of Never_Lucky123) moved wrongly! 0.2655991428439961
+[06:53:25] [Server thread/WARN]: vorse (vehicle of Never_Lucky123) moved wrongly! 0.2658338294286011
+[06:55:34] [Server thread/WARN]: vorse (vehicle of Never_Lucky123) moved wrongly! 0.27402483704258884
+[06:57:14] [Server thread/WARN]: vorse (vehicle of Never_Lucky123) moved wrongly! 0.3648779259969217
+[06:57:25] [Server thread/WARN]: vorse (vehicle of Never_Lucky123) moved too quickly! -0.9574326457129843,3.0,-9.505722167443196
+[07:35:16] [Server thread/INFO]: LuckMaster123 lost connection: Disconnected
+[07:35:16] [Server thread/INFO]: LuckMaster123 left the game
+[07:35:22] [Server thread/INFO]: Never_Lucky123 lost connection: Disconnected
+[07:35:22] [Server thread/INFO]: Never_Lucky123 left the game
+[17:53:27] [User Authenticator #8/INFO]: UUID of player LuckMaster123 is 87211ff0-269b-4055-9e19-6ebd78327146
+[17:53:27] [Server thread/INFO]: LuckMaster123[/134.41.98.7:56794] logged in with entity id 122495 at (-111.5, 45.0, -3.5)
+[17:53:27] [Server thread/INFO]: LuckMaster123 joined the game
+[17:53:54] [Server thread/INFO]: LuckMaster123 lost connection: Disconnected
+[17:53:54] [Server thread/INFO]: LuckMaster123 left the game
+[00:44:29] [User Authenticator #9/INFO]: UUID of player Never_Lucky123 is fdeaf439-d900-47e4-8e38-2d67e341266d
+[00:44:29] [Server thread/INFO]: Never_Lucky123[/129.97.131.0:55236] logged in with entity id 122591 at (-99.5, 67.0, 64.5)
+[00:44:29] [Server thread/INFO]: Never_Lucky123 joined the game
+[00:45:52] [Server thread/INFO]: Never_Lucky123 lost connection: Disconnected
+[00:45:52] [Server thread/INFO]: Never_Lucky123 left the game
+[04:14:59] [User Authenticator #10/INFO]: UUID of player Never_Lucky123 is fdeaf439-d900-47e4-8e38-2d67e341266d
+[04:14:59] [Server thread/INFO]: Never_Lucky123[/129.97.131.0:55254] logged in with entity id 122901 at (-100.46356664236757, 67.5625, 66.00196328935196)
+[04:14:59] [Server thread/INFO]: Never_Lucky123 joined the game
+[04:23:46] [Server thread/WARN]: vorse (vehicle of Never_Lucky123) moved wrongly! 0.2608981104556136
+[04:43:26] [Server thread/WARN]: vorse (vehicle of Never_Lucky123) moved wrongly! 0.5852028605815462
+[04:43:50] [Server thread/WARN]: vorse (vehicle of Never_Lucky123) moved wrongly! 0.27332566876521014
+[04:48:07] [Server thread/WARN]: vorse (vehicle of Never_Lucky123) moved wrongly! 0.28105175910013713
+[04:48:19] [Server thread/WARN]: vorse (vehicle of Never_Lucky123) moved wrongly! 0.26989586023830725
+[04:48:42] [Server thread/WARN]: vorse (vehicle of Never_Lucky123) moved wrongly! 0.35898838943489864
+[04:48:42] [Server thread/WARN]: vorse (vehicle of Never_Lucky123) moved wrongly! 0.8623775761896013
+[04:48:42] [Server thread/WARN]: vorse (vehicle of Never_Lucky123) moved too quickly! 1.672407659804719,6.0,7.9009481683388
+[04:48:42] [Server thread/WARN]: vorse (vehicle of Never_Lucky123) moved too quickly! 1.8188729167180213,6.0,8.494593519160617
+[04:48:42] [Server thread/WARN]: vorse (vehicle of Never_Lucky123) moved wrongly! 5.925008838377835
+[04:50:30] [Server thread/WARN]: vorse (vehicle of Never_Lucky123) moved wrongly! 0.2830958735421518
+[04:50:30] [Server thread/WARN]: vorse (vehicle of Never_Lucky123) moved wrongly! 0.717904463739842
+[04:51:52] [Server thread/WARN]: vorse (vehicle of Never_Lucky123) moved wrongly! 0.40375938132001465
+[04:51:57] [Server thread/WARN]: vorse (vehicle of Never_Lucky123) moved wrongly! 0.2874274778699544
+[04:51:57] [Server thread/WARN]: vorse (vehicle of Never_Lucky123) moved wrongly! 0.8528323062897414
+[04:51:57] [Server thread/WARN]: vorse (vehicle of Never_Lucky123) moved wrongly! 0.2864915051804928
+[04:52:47] [Server thread/WARN]: vorse (vehicle of Never_Lucky123) moved too quickly! -10.500334071245447,-1.0,1.0532936802126187
+[04:52:47] [Server thread/WARN]: vorse (vehicle of Never_Lucky123) moved too quickly! -11.115081759041288,-1.0,1.0932233309424646
+[04:52:47] [Server thread/WARN]: vorse (vehicle of Never_Lucky123) moved too quickly! -11.730405705211297,-1.0,1.1271996989401032
+[04:52:47] [Server thread/WARN]: vorse (vehicle of Never_Lucky123) moved too quickly! -12.346037995747963,-1.0,1.1579905840435458
+[04:52:47] [Server thread/WARN]: vorse (vehicle of Never_Lucky123) moved too quickly! -12.961835275207534,-1.0,1.1870769807619581
+[04:52:47] [Server thread/WARN]: vorse (vehicle of Never_Lucky123) moved too quickly! -13.577720836950164,-1.0,1.2152513397293205
+[04:52:47] [Server thread/WARN]: vorse (vehicle of Never_Lucky123) moved too quickly! -14.19362002783248,-1.0,1.2436789757639417
+[04:52:47] [Server thread/WARN]: vorse (vehicle of Never_Lucky123) moved too quickly! -14.80945213429419,-1.0,1.2737518896587972
+[04:52:47] [Server thread/WARN]: vorse (vehicle of Never_Lucky123) moved too quickly! -15.424979285670645,-1.0,1.3092043509911946
+[04:52:47] [Server thread/WARN]: vorse (vehicle of Never_Lucky123) moved too quickly! -16.03875362838704,-1.0,1.363973857747851
+[04:52:47] [Server thread/WARN]: vorse (vehicle of Never_Lucky123) moved too quickly! -16.64919533366924,-1.0,1.4446423664744543
+[04:52:47] [Server thread/WARN]: vorse (vehicle of Never_Lucky123) moved too quickly! -17.254780053081163,-1.0,1.5538549195284759
+[04:52:47] [Server thread/WARN]: vorse (vehicle of Never_Lucky123) moved too quickly! -17.856130710573836,-1.0,1.6849008503415916
+[04:52:47] [Server thread/WARN]: vorse (vehicle of Never_Lucky123) moved too quickly! -18.45502691579361,-1.0,1.8283469980192422
+[04:52:47] [Server thread/WARN]: vorse (vehicle of Never_Lucky123) moved too quickly! -19.052609792538703,-1.0,1.9784282545074348
+[04:52:47] [Server thread/WARN]: vorse (vehicle of Never_Lucky123) moved too quickly! -19.649489933401924,-1.0,2.1320598254303604
+[04:52:47] [Server thread/WARN]: vorse (vehicle of Never_Lucky123) moved too quickly! -20.24656195500046,-1.0,2.285410190657103
+[04:52:47] [Server thread/WARN]: vorse (vehicle of Never_Lucky123) moved too quickly! -10.959935520879128,0.0,1.4218835074389062
+[04:52:49] [Server thread/WARN]: vorse (vehicle of Never_Lucky123) moved too quickly! -10.34601576586823,-1.0768320014953616,-2.000320601101066
+[04:52:49] [Server thread/WARN]: vorse (vehicle of Never_Lucky123) moved too quickly! -10.69791828249896,-1.2274534586630068,-2.031051171584977
+[04:52:49] [Server thread/WARN]: vorse (vehicle of Never_Lucky123) moved too quickly! -11.040056270663968,-1.4489423104376016,-2.062953566643273
+[04:52:49] [Server thread/WARN]: vorse (vehicle of Never_Lucky123) moved too quickly! -11.372880440092104,-1.7384922093173572,-2.0987632975991346
+[04:52:49] [Server thread/WARN]: vorse (vehicle of Never_Lucky123) moved too quickly! -11.696368582632772,-2.0,-2.141194507004684
+[04:52:49] [Server thread/WARN]: vorse (vehicle of Never_Lucky123) moved too quickly! -12.243853726735665,-2.0,-2.301896610773383
+[04:52:49] [Server thread/WARN]: vorse (vehicle of Never_Lucky123) moved too quickly! -12.786480163828628,-2.0,-2.5287258160121837
+[04:52:49] [Server thread/WARN]: vorse (vehicle of Never_Lucky123) moved too quickly! -13.312568059841624,-2.0,-2.8131994599048085
+[04:52:49] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2009ms or 40 ticks behind
+[04:53:08] [Server thread/WARN]: vorse (vehicle of Never_Lucky123) moved too quickly! -4.735757762259368,1.0,-9.318691654429358
+[04:53:08] [Server thread/WARN]: vorse (vehicle of Never_Lucky123) moved too quickly! -4.980421594879033,1.0,-9.884653711868168
+[04:53:08] [Server thread/WARN]: vorse (vehicle of Never_Lucky123) moved too quickly! -5.226447499502228,2.0,-10.450023780710353
+[04:53:08] [Server thread/WARN]: vorse (vehicle of Never_Lucky123) moved too quickly! -5.47388143174868,2.0,-11.01477823002574
+[04:53:08] [Server thread/WARN]: vorse (vehicle of Never_Lucky123) moved too quickly! -5.722068771503302,2.0,-11.579203273606481
+[04:53:08] [Server thread/WARN]: vorse (vehicle of Never_Lucky123) moved too quickly! -5.970659244594231,2.0,-12.143452058746107
+[04:53:08] [Server thread/WARN]: vorse (vehicle of Never_Lucky123) moved too quickly! -6.2194654262958124,2.0,-12.70760653150819
+[04:53:08] [Server thread/WARN]: vorse (vehicle of Never_Lucky123) moved too quickly! -6.468387029374185,2.0,-13.271710539597507
+[04:53:08] [Server thread/WARN]: vorse (vehicle of Never_Lucky123) moved too quickly! -6.717370392130022,2.0,-13.835787545046514
+[04:53:08] [Server thread/WARN]: vorse (vehicle of Never_Lucky123) moved too quickly! -6.966386801257897,2.0,-14.399850101920947
+[04:53:08] [Server thread/WARN]: vorse (vehicle of Never_Lucky123) moved too quickly! -7.215420892840598,2.0,-14.963904927651356
+[04:53:08] [Server thread/WARN]: vorse (vehicle of Never_Lucky123) moved too quickly! -7.464464445952331,2.0,-15.52795561660082
+[04:53:08] [Server thread/WARN]: vorse (vehicle of Never_Lucky123) moved too quickly! -7.713513061739604,2.0,-16.09200409204118
+[04:53:08] [Server thread/WARN]: vorse (vehicle of Never_Lucky123) moved too quickly! -7.962564386463612,2.0,-16.65605138307683
+[04:53:08] [Server thread/WARN]: vorse (vehicle of Never_Lucky123) moved too quickly! -8.211617160685648,2.0,-17.220098040361336
+[04:53:08] [Server thread/WARN]: vorse (vehicle of Never_Lucky123) moved too quickly! -8.460670710505156,2.0,-17.784144358538015
+[04:53:08] [Server thread/WARN]: vorse (vehicle of Never_Lucky123) moved too quickly! -8.709724675331472,2.0,-18.348190495265044
+[04:53:08] [Server thread/WARN]: vorse (vehicle of Never_Lucky123) moved too quickly! -8.958778862219617,2.0,-18.912236534901922
+[04:53:08] [Server thread/WARN]: vorse (vehicle of Never_Lucky123) moved too quickly! -9.20783316792864,2.0,-19.47628252258778
+[04:53:08] [Server thread/WARN]: vorse (vehicle of Never_Lucky123) moved too quickly! -9.45688753721629,2.0,-20.040328482475616
+[04:53:08] [Server thread/WARN]: vorse (vehicle of Never_Lucky123) moved too quickly! -9.705941940523644,2.0,-20.604374427489347
+[04:53:08] [Server thread/WARN]: vorse (vehicle of Never_Lucky123) moved too quickly! -9.954996362034251,2.0,-21.168420364544318
+[04:53:08] [Server thread/WARN]: vorse (vehicle of Never_Lucky123) moved too quickly! -10.204050793285035,2.0,-21.73246629734058
+[04:53:08] [Server thread/WARN]: vorse (vehicle of Never_Lucky123) moved too quickly! -10.45310522974762,2.0,-22.296512227858102
+[04:53:08] [Server thread/WARN]: vorse (vehicle of Never_Lucky123) moved too quickly! -10.702159668998945,2.0,-22.860558157156447
+[04:53:08] [Server thread/WARN]: vorse (vehicle of Never_Lucky123) moved too quickly! -4.740103736253332,1.0,-9.31679673609392
+[04:53:08] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2037ms or 40 ticks behind
+[04:53:10] [Server thread/WARN]: vorse (vehicle of Never_Lucky123) moved too quickly! -4.500624864031636,0.0,-9.46644405003076
+[04:53:10] [Server thread/WARN]: vorse (vehicle of Never_Lucky123) moved too quickly! -4.76579713927606,0.0,-10.023094373151707
+[04:53:10] [Server thread/WARN]: vorse (vehicle of Never_Lucky123) moved too quickly! -5.030969452672593,0.0,-10.579744678572297
+[04:53:14] [Server thread/WARN]: vorse (vehicle of Never_Lucky123) moved too quickly! -5.257144805037001,0.0,-8.669208231480525
+[04:53:14] [Server thread/WARN]: vorse (vehicle of Never_Lucky123) moved too quickly! -5.31016045666172,0.0,-8.747275352222005
+[04:53:14] [Server thread/WARN]: vorse (vehicle of Never_Lucky123) moved too quickly! -5.338528074828048,0.0,-8.78904751204027
+[04:53:14] [Server thread/WARN]: vorse (vehicle of Never_Lucky123) moved too quickly! -5.353707021719572,0.0,-8.811398961912118
+[04:53:14] [Server thread/WARN]: vorse (vehicle of Never_Lucky123) moved too quickly! -5.36182897356565,0.0,-8.823358777098747
+[04:53:14] [Server thread/WARN]: vorse (vehicle of Never_Lucky123) moved too quickly! -5.366174868064263,0.0,-8.829758235752024
+[04:53:14] [Server thread/WARN]: vorse (vehicle of Never_Lucky123) moved too quickly! -5.366174868064263,0.0,-8.833182458485908
+[04:53:14] [Server thread/WARN]: vorse (vehicle of Never_Lucky123) moved too quickly! -5.366174868064263,0.0,-8.833182458485908
+[04:53:14] [Server thread/WARN]: vorse (vehicle of Never_Lucky123) moved too quickly! -5.366174868064263,0.0,-8.833182458485908
+[04:53:14] [Server thread/WARN]: vorse (vehicle of Never_Lucky123) moved too quickly! -5.219485214754343,0.0,-9.079469663199461
+[04:54:11] [Server thread/WARN]: vorse (vehicle of Never_Lucky123) moved wrongly! 0.2701633990980099
+[04:54:33] [Server thread/WARN]: vorse (vehicle of Never_Lucky123) moved wrongly! 0.29489774213936926
+[04:58:30] [Server thread/WARN]: vorse (vehicle of Never_Lucky123) moved wrongly! 0.39267514851167107
+[04:58:43] [Server thread/WARN]: vorse (vehicle of Never_Lucky123) moved wrongly! 0.27263718629683353
+[04:58:43] [Server thread/WARN]: vorse (vehicle of Never_Lucky123) moved wrongly! 0.7694599977182861
+[05:01:27] [Server thread/WARN]: vorse (vehicle of Never_Lucky123) moved wrongly! 0.4809277250242303
+[05:11:13] [Server thread/WARN]: vorse (vehicle of Never_Lucky123) moved wrongly! 0.28051365489932323
+[05:12:39] [Server thread/WARN]: vorse (vehicle of Never_Lucky123) moved wrongly! 0.30792363822217794
+[05:14:57] [Server thread/WARN]: vorse (vehicle of Never_Lucky123) moved wrongly! 0.2862781472969118
+[05:15:05] [Server thread/WARN]: vorse (vehicle of Never_Lucky123) moved wrongly! 0.3772338923770917
+[05:15:05] [Server thread/WARN]: vorse (vehicle of Never_Lucky123) moved wrongly! 0.27027348677660257
+[05:17:32] [Server thread/WARN]: vorse (vehicle of Never_Lucky123) moved wrongly! 0.2522132467839455
+[05:18:32] [Server thread/INFO]: Never_Lucky123 lost connection: Disconnected
+[05:18:32] [Server thread/INFO]: Never_Lucky123 left the game
+[18:06:55] [User Authenticator #11/INFO]: UUID of player LuckMaster123 is 87211ff0-269b-4055-9e19-6ebd78327146
+[18:06:55] [Server thread/INFO]: LuckMaster123[/134.41.98.7:55639] logged in with entity id 147937 at (-107.92244600901292, 45.0, -3.50389695368026)
+[18:06:55] [Server thread/INFO]: LuckMaster123 joined the game
+[18:50:27] [Server thread/INFO]: LuckMaster123 lost connection: Disconnected
+[18:50:27] [Server thread/INFO]: LuckMaster123 left the game
+Starting net.minecraft.server.Main
+[21:20:55] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[21:20:57] [ServerMain/WARN]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[21:20:57] [ServerMain/WARN]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
+[21:20:57] [ServerMain/WARN]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[21:20:57] [ServerMain/WARN]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[21:20:57] [ServerMain/WARN]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[21:20:58] [Worker-Main-2/INFO]: Loaded 7 recipes
+[21:20:58] [Worker-Main-2/INFO]: Loaded 1141 advancements
+[21:21:00] [Server thread/INFO]: Starting minecraft server version 1.18.2
+[21:21:00] [Server thread/INFO]: Loading properties
+[21:21:00] [Server thread/INFO]: Default game type: SURVIVAL
+[21:21:00] [Server thread/INFO]: Generating keypair
+[21:21:00] [Server console handler/ERROR]: Exception handling console input
+java.io.IOException: Bad file descriptor
+	at java.io.FileInputStream.readBytes(Native Method) ~[?:?]
+	at java.io.FileInputStream.read(FileInputStream.java:276) ~[?:?]
+	at java.io.BufferedInputStream.read1(BufferedInputStream.java:282) ~[?:?]
+	at java.io.BufferedInputStream.read(BufferedInputStream.java:343) ~[?:?]
+	at sun.nio.cs.StreamDecoder.readBytes(StreamDecoder.java:270) ~[?:?]
+	at sun.nio.cs.StreamDecoder.implRead(StreamDecoder.java:313) ~[?:?]
+	at sun.nio.cs.StreamDecoder.read(StreamDecoder.java:188) ~[?:?]
+	at java.io.InputStreamReader.read(InputStreamReader.java:177) ~[?:?]
+	at java.io.BufferedReader.fill(BufferedReader.java:162) ~[?:?]
+	at java.io.BufferedReader.readLine(BufferedReader.java:329) ~[?:?]
+	at java.io.BufferedReader.readLine(BufferedReader.java:396) ~[?:?]
+	at acx$1.run(SourceFile:99) [server-1.18.2.jar:?]
+[21:21:00] [Server thread/INFO]: Starting Minecraft server on *:25565
+[21:21:00] [Server thread/INFO]: Using epoll channel type
+[21:21:01] [Server thread/INFO]: Preparing level "world"
+[21:21:07] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[21:21:09] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[21:21:09] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[21:21:10] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[21:21:10] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[21:21:10] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[21:21:10] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[21:21:10] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[21:21:11] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[21:21:11] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[21:21:12] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[21:21:12] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[21:21:13] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[21:21:13] [Worker-Main-2/INFO]: Preparing spawn area: 3%
+[21:21:14] [Worker-Main-2/INFO]: Preparing spawn area: 4%
+[21:21:14] [Worker-Main-2/INFO]: Preparing spawn area: 8%
+[21:21:15] [Worker-Main-2/INFO]: Preparing spawn area: 9%
+[21:21:15] [Worker-Main-2/INFO]: Preparing spawn area: 9%
+[21:21:16] [Worker-Main-2/INFO]: Preparing spawn area: 20%
+[21:21:16] [Worker-Main-2/INFO]: Preparing spawn area: 38%
+[21:21:17] [Worker-Main-2/INFO]: Preparing spawn area: 43%
+[21:21:17] [Worker-Main-2/INFO]: Preparing spawn area: 57%
+[21:21:18] [Worker-Main-2/INFO]: Preparing spawn area: 80%
+[21:21:18] [Server thread/INFO]: Time elapsed: 11407 ms
+[21:21:18] [Server thread/INFO]: Done (17.936s)! For help, type "help"
+[21:39:36] [User Authenticator #1/INFO]: UUID of player Never_Lucky123 is fdeaf439-d900-47e4-8e38-2d67e341266d
+[21:39:37] [Server thread/INFO]: Never_Lucky123[/104.243.105.89:55863] logged in with entity id 239 at (-67.85328431877899, 64.0, 52.56614344896149)
+[21:39:37] [Server thread/INFO]: Never_Lucky123 joined the game
+[21:40:04] [Server thread/INFO]: Never_Lucky123 lost connection: Disconnected
+[21:40:04] [Server thread/INFO]: Never_Lucky123 left the game
+[03:02:47] [User Authenticator #2/INFO]: UUID of player LuckMaster123 is 87211ff0-269b-4055-9e19-6ebd78327146
+[03:02:47] [Server thread/INFO]: LuckMaster123[/134.41.98.7:51292] logged in with entity id 365 at (-96.42184035416088, 48.0, -0.901805610358059)
+[03:02:47] [Server thread/INFO]: LuckMaster123 joined the game
+[03:25:38] [Server thread/INFO]: LuckMaster123 lost connection: Disconnected
+[03:25:38] [Server thread/INFO]: LuckMaster123 left the game
+[03:27:33] [User Authenticator #3/INFO]: UUID of player LuckMaster123 is 87211ff0-269b-4055-9e19-6ebd78327146
+[03:27:33] [Server thread/INFO]: LuckMaster123[/134.41.98.7:51503] logged in with entity id 5326 at (5.264211622628501, 64.0, 47.49459510315878)
+[03:27:33] [Server thread/INFO]: LuckMaster123 joined the game
+[03:48:44] [Server thread/INFO]: LuckMaster123 lost connection: Disconnected
+[03:48:44] [Server thread/INFO]: LuckMaster123 left the game
+[00:23:31] [User Authenticator #4/INFO]: UUID of player LuckMaster123 is 87211ff0-269b-4055-9e19-6ebd78327146
+[00:23:31] [Server thread/INFO]: LuckMaster123[/134.41.98.7:65507] logged in with entity id 9137 at (-6.883560339064757, 64.0, 68.61982681082831)
+[00:23:31] [Server thread/INFO]: LuckMaster123 joined the game
+[00:32:48] [Server thread/WARN]: Mismatch in destroy block pos: gj{x=-12, y=63, z=35} gj{x=-16, y=64, z=44}
+[00:35:46] [Server thread/WARN]: LuckMaster123 moved too quickly! -3.4636486733344576,0.0,9.501711687571202
+[00:37:14] [Server thread/INFO]: LuckMaster123 lost connection: Disconnected
+[00:37:14] [Server thread/INFO]: LuckMaster123 left the game
+[01:16:38] [User Authenticator #5/INFO]: UUID of player LuckMaster123 is 87211ff0-269b-4055-9e19-6ebd78327146
+[01:16:38] [Server thread/INFO]: LuckMaster123[/134.41.98.7:57009] logged in with entity id 11945 at (53.14609626632252, 63.0, 74.37463040566944)
+[01:16:38] [Server thread/INFO]: LuckMaster123 joined the game
+[01:20:37] [Server thread/INFO]: LuckMaster123 lost connection: Disconnected
+[01:20:37] [Server thread/INFO]: LuckMaster123 left the game
+[01:21:22] [User Authenticator #6/INFO]: UUID of player LuckMaster123 is 87211ff0-269b-4055-9e19-6ebd78327146
+[01:21:22] [Server thread/INFO]: LuckMaster123[/134.41.98.7:57083] logged in with entity id 12784 at (-22.28774468069835, 63.0, 54.96398264986085)
+[01:21:22] [Server thread/INFO]: LuckMaster123 joined the game
+[01:21:36] [Server thread/WARN]: Mismatch in destroy block pos: gj{x=-19, y=64, z=44} gj{x=-19, y=64, z=45}
+[01:22:28] [Server thread/WARN]: LuckMaster123 moved too quickly! -2.422478253297186,0.0,9.844575039384736
+[01:22:42] [Server thread/INFO]: LuckMaster123 lost connection: Disconnected
+[01:22:42] [Server thread/INFO]: LuckMaster123 left the game
+[23:35:28] [Server thread/INFO]: com.mojang.authlib.GameProfile@ca938e2[id=<null>,name=INETDataSurvey4Q,properties={},legacy=false] (/163.172.139.143:44842) lost connection: Disconnected
+[22:34:59] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 38606ms or 772 ticks behind
+[15:20:52] [User Authenticator #7/INFO]: UUID of player LuckMaster123 is 87211ff0-269b-4055-9e19-6ebd78327146
+[15:20:52] [Server thread/INFO]: LuckMaster123[/24.79.143.185:59137] logged in with entity id 13117 at (17.340976421333128, 65.0, 58.2766697431245)
+[15:20:52] [Server thread/INFO]: LuckMaster123 joined the game
+[15:44:08] [Server thread/INFO]: LuckMaster123 lost connection: Disconnected
+[15:44:08] [Server thread/INFO]: LuckMaster123 left the game
+[17:49:04] [Server thread/INFO]: com.mojang.authlib.GameProfile@228283c4[id=<null>,name=LuckMaster123,properties={},legacy=false] (/24.79.143.185:60742) lost connection: Disconnected
+[17:49:20] [Server thread/INFO]: com.mojang.authlib.GameProfile@4fac5e53[id=<null>,name=LuckMaster123,properties={},legacy=false] (/24.79.143.185:60751) lost connection: Disconnected
+[17:50:51] [User Authenticator #8/INFO]: UUID of player LuckMaster123 is 87211ff0-269b-4055-9e19-6ebd78327146
+[17:50:51] [Server thread/INFO]: LuckMaster123[/24.79.143.185:60841] logged in with entity id 17912 at (29.337235646094296, 63.0, 11.260961368791449)
+[17:50:51] [Server thread/INFO]: LuckMaster123 joined the game
+[18:37:58] [Server thread/INFO]: LuckMaster123 lost connection: Disconnected
+[18:37:58] [Server thread/INFO]: LuckMaster123 left the game
+[18:42:52] [User Authenticator #9/INFO]: UUID of player LuckMaster123 is 87211ff0-269b-4055-9e19-6ebd78327146
+[18:42:52] [Server thread/INFO]: LuckMaster123[/24.79.143.185:61263] logged in with entity id 27929 at (-66.39753451899418, 65.5, 57.38249956489272)
+[18:42:52] [Server thread/INFO]: LuckMaster123 joined the game
+[18:43:03] [Server thread/INFO]: LuckMaster123 lost connection: Disconnected
+[18:43:03] [Server thread/INFO]: LuckMaster123 left the game
+[20:15:06] [User Authenticator #10/INFO]: UUID of player LuckMaster123 is 87211ff0-269b-4055-9e19-6ebd78327146
+[20:15:06] [Server thread/INFO]: LuckMaster123[/24.79.143.185:52724] logged in with entity id 27976 at (-66.39753451899418, 65.5, 57.38249956489272)
+[20:15:06] [Server thread/INFO]: LuckMaster123 joined the game
+[20:33:50] [Server thread/INFO]: LuckMaster123 lost connection: Disconnected
+[20:33:50] [Server thread/INFO]: LuckMaster123 left the game
+[00:57:27] [User Authenticator #11/INFO]: UUID of player LuckMaster123 is 87211ff0-269b-4055-9e19-6ebd78327146
+[00:57:27] [Server thread/INFO]: LuckMaster123[/24.79.143.185:50932] logged in with entity id 30642 at (-66.12671624185506, 64.0, 53.5463274706018)
+[00:57:27] [Server thread/INFO]: LuckMaster123 joined the game
+[01:23:14] [Server thread/INFO]: LuckMaster123 lost connection: Disconnected
+[01:23:14] [Server thread/INFO]: LuckMaster123 left the game
+[01:23:14] [Server thread/WARN]: handleDisconnection() called twice
+[01:26:01] [User Authenticator #12/INFO]: UUID of player LuckMaster123 is 87211ff0-269b-4055-9e19-6ebd78327146
+[01:26:01] [Server thread/INFO]: LuckMaster123[/24.79.143.185:51150] logged in with entity id 33951 at (-16.15149423919069, 63.0, 63.33582830376657)
+[01:26:01] [Server thread/INFO]: LuckMaster123 joined the game
+[01:33:17] [Server thread/INFO]: LuckMaster123 lost connection: Timed out
+[01:33:17] [Server thread/INFO]: LuckMaster123 left the game
+[01:33:30] [User Authenticator #13/INFO]: UUID of player LuckMaster123 is 87211ff0-269b-4055-9e19-6ebd78327146
+[01:33:30] [Server thread/INFO]: LuckMaster123[/24.79.143.185:55370] logged in with entity id 34868 at (-20.76560465369084, 63.0, 60.94395888394155)
+[01:33:30] [Server thread/INFO]: LuckMaster123 joined the game
+[01:40:11] [Server thread/INFO]: LuckMaster123 lost connection: Disconnected
+[01:40:11] [Server thread/INFO]: LuckMaster123 left the game
+[03:33:51] [User Authenticator #14/INFO]: UUID of player Never_Lucky123 is fdeaf439-d900-47e4-8e38-2d67e341266d
+[03:33:51] [Server thread/INFO]: Never_Lucky123[/104.243.105.89:64785] logged in with entity id 36039 at (-82.03310358095399, 66.0, 59.36961261776701)
+[03:33:51] [Server thread/INFO]: Never_Lucky123 joined the game
+[03:34:40] [Server thread/INFO]: Never_Lucky123 lost connection: Disconnected
+[03:34:40] [Server thread/INFO]: Never_Lucky123 left the game
+[04:17:17] [User Authenticator #15/INFO]: UUID of player Never_Lucky123 is fdeaf439-d900-47e4-8e38-2d67e341266d
+[04:17:17] [Server thread/INFO]: Never_Lucky123[/104.243.105.89:50592] logged in with entity id 36283 at (-48.490514118724086, 63.0, 40.81955073041175)
+[04:17:17] [Server thread/INFO]: Never_Lucky123 joined the game
+[04:17:32] [User Authenticator #16/INFO]: UUID of player LuckMaster123 is 87211ff0-269b-4055-9e19-6ebd78327146
+[04:17:32] [Server thread/INFO]: LuckMaster123[/24.79.143.185:49413] logged in with entity id 36336 at (-113.42028621416107, 60.0, -16.214646581790618)
+[04:17:32] [Server thread/INFO]: LuckMaster123 joined the game
+[04:20:53] [Server thread/INFO]: <LuckMaster123> a fox ate all the chickens
+[04:21:26] [Server thread/INFO]: <Never_Lucky123> lamo was figuring out how to open chat
+[05:31:25] [Server thread/INFO]: LuckMaster123 fell from a high place
+[06:06:05] [Server thread/INFO]: LuckMaster123 lost connection: Disconnected
+[06:06:05] [Server thread/INFO]: LuckMaster123 left the game
+[06:06:07] [Server thread/INFO]: Never_Lucky123 lost connection: Disconnected
+[06:06:07] [Server thread/INFO]: Never_Lucky123 left the game
+[03:58:44] [User Authenticator #17/INFO]: UUID of player LuckMaster123 is 87211ff0-269b-4055-9e19-6ebd78327146
+[03:58:44] [Server thread/INFO]: LuckMaster123[/24.79.143.185:58146] logged in with entity id 62111 at (-551.3000000119209, 63.0, 133.30000001192093)
+[03:58:44] [Server thread/INFO]: LuckMaster123 joined the game
+[04:40:33] [Server thread/INFO]: LuckMaster123 lost connection: Disconnected
+[04:40:33] [Server thread/INFO]: LuckMaster123 left the game
+[04:42:42] [User Authenticator #18/INFO]: UUID of player LuckMaster123 is 87211ff0-269b-4055-9e19-6ebd78327146
+[04:42:42] [Server thread/INFO]: LuckMaster123[/24.79.143.185:57365] logged in with entity id 74118 at (-900.7772525898558, 61.77041774746406, 1649.7568225535674)
+[04:42:43] [Server thread/INFO]: LuckMaster123 joined the game
+[04:43:04] [Server thread/INFO]: LuckMaster123 has made the advancement [Ice Bucket Challenge]
+[04:48:08] [Server thread/INFO]: LuckMaster123 lost connection: Disconnected
+[04:48:08] [Server thread/INFO]: LuckMaster123 left the game
+[04:49:17] [User Authenticator #19/INFO]: UUID of player LuckMaster123 is 87211ff0-269b-4055-9e19-6ebd78327146
+[04:49:17] [Server thread/INFO]: LuckMaster123[/24.79.143.185:57413] logged in with entity id 75927 at (-1235.5581721340711, 65.0, 1331.2552056731427)
+[04:49:17] [Server thread/INFO]: LuckMaster123 joined the game
+[05:19:52] [Server thread/INFO]: LuckMaster123 lost connection: Disconnected
+[05:19:52] [Server thread/INFO]: LuckMaster123 left the game
+[05:20:05] [User Authenticator #20/INFO]: UUID of player LuckMaster123 is 87211ff0-269b-4055-9e19-6ebd78327146
+[05:20:05] [Server thread/INFO]: LuckMaster123[/24.79.143.185:49894] logged in with entity id 83552 at (-68.82051622013734, 64.0, 53.583692744013234)
+[05:20:05] [Server thread/INFO]: LuckMaster123 joined the game
+[05:21:34] [Server thread/INFO]: LuckMaster123 lost connection: Disconnected
+[05:21:34] [Server thread/INFO]: LuckMaster123 left the game
+[05:25:46] [User Authenticator #21/INFO]: UUID of player LuckMaster123 is 87211ff0-269b-4055-9e19-6ebd78327146
+[05:25:46] [Server thread/INFO]: LuckMaster123[/24.79.143.185:49945] logged in with entity id 83856 at (-103.25331948198112, 48.0, -2.503978536650233)
+[05:25:46] [Server thread/INFO]: LuckMaster123 joined the game
+[05:36:00] [Server thread/INFO]: LuckMaster123 lost connection: Disconnected
+[05:36:00] [Server thread/INFO]: LuckMaster123 left the game
+[16:01:59] [User Authenticator #22/INFO]: UUID of player LuckMaster123 is 87211ff0-269b-4055-9e19-6ebd78327146
+[16:01:59] [Server thread/INFO]: LuckMaster123[/24.79.143.185:55319] logged in with entity id 85256 at (-2.699999988079071, 64.0, 69.31496085483772)
+[16:01:59] [Server thread/INFO]: LuckMaster123 joined the game
+[18:16:12] [Server thread/INFO]: LuckMaster123 lost connection: Timed out
+[18:16:12] [Server thread/INFO]: LuckMaster123 left the game
+[20:00:22] [User Authenticator #23/INFO]: UUID of player LuckMaster123 is 87211ff0-269b-4055-9e19-6ebd78327146
+[20:00:22] [Server thread/INFO]: LuckMaster123[/24.79.143.185:54077] logged in with entity id 97475 at (-1.699999988079071, 63.0, 69.27416369082785)
+[20:00:22] [Server thread/INFO]: LuckMaster123 joined the game
+[20:21:18] [Server thread/INFO]: LuckMaster123 lost connection: Disconnected
+[20:21:18] [Server thread/INFO]: LuckMaster123 left the game
+[20:22:07] [User Authenticator #24/INFO]: UUID of player LuckMaster123 is 87211ff0-269b-4055-9e19-6ebd78327146
+[20:22:07] [Server thread/INFO]: LuckMaster123[/24.79.143.185:65221] logged in with entity id 100312 at (-83.65954341493153, 66.0, 58.03087634025684)
+[20:22:07] [Server thread/INFO]: LuckMaster123 joined the game
+[21:08:30] [Server thread/INFO]: LuckMaster123 was shot by Skeleton
+[21:11:26] [Server thread/INFO]: LuckMaster123 lost connection: Timed out
+[21:11:26] [Server thread/INFO]: LuckMaster123 left the game
+[21:21:08] [User Authenticator #25/INFO]: UUID of player LuckMaster123 is 87211ff0-269b-4055-9e19-6ebd78327146
+[21:21:08] [Server thread/INFO]: LuckMaster123[/24.79.143.185:53555] logged in with entity id 105412 at (-3.699999988079071, 63.0, 68.43285110074805)
+[21:21:08] [Server thread/INFO]: LuckMaster123 joined the game
+[21:21:58] [Server thread/INFO]: LuckMaster123 lost connection: Disconnected
+[21:21:58] [Server thread/INFO]: LuckMaster123 left the game
+[21:23:39] [User Authenticator #26/INFO]: UUID of player LuckMaster123 is 87211ff0-269b-4055-9e19-6ebd78327146
+[21:23:39] [Server thread/INFO]: LuckMaster123[/24.79.143.185:53575] logged in with entity id 105648 at (-8.889651490930985, 63.0, 68.78730542526617)
+[21:23:39] [Server thread/INFO]: LuckMaster123 joined the game
+[22:29:13] [Server thread/INFO]: LuckMaster123 lost connection: Timed out
+[22:29:13] [Server thread/INFO]: LuckMaster123 left the game
+[22:36:08] [User Authenticator #27/INFO]: UUID of player LuckMaster123 is 87211ff0-269b-4055-9e19-6ebd78327146
+[22:36:08] [Server thread/INFO]: LuckMaster123[/24.79.143.185:54342] logged in with entity id 112802 at (-3.699999988079071, 63.0, 69.23775476883645)
+[22:36:08] [Server thread/INFO]: LuckMaster123 joined the game
+[23:21:55] [Server thread/INFO]: LuckMaster123 lost connection: Timed out
+[23:21:55] [Server thread/INFO]: LuckMaster123 left the game
+[23:22:08] [User Authenticator #28/INFO]: UUID of player LuckMaster123 is 87211ff0-269b-4055-9e19-6ebd78327146
+[23:22:08] [Server thread/INFO]: LuckMaster123[/24.79.143.185:54769] logged in with entity id 117729 at (-77.27888072298988, 64.0, 42.425734595377605)
+[23:22:08] [Server thread/INFO]: LuckMaster123 joined the game
+[00:12:11] [Server thread/INFO]: LuckMaster123 lost connection: Timed out
+[00:12:11] [Server thread/INFO]: LuckMaster123 left the game
+[00:42:24] [User Authenticator #29/INFO]: UUID of player LuckMaster123 is 87211ff0-269b-4055-9e19-6ebd78327146
+[00:42:24] [Server thread/INFO]: LuckMaster123[/24.79.143.185:55513] logged in with entity id 122886 at (-3.699999988079071, 63.0, 68.72032967273353)
+[00:42:24] [Server thread/INFO]: LuckMaster123 joined the game
+[03:27:32] [Server thread/INFO]: LuckMaster123 lost connection: Timed out
+[03:27:32] [Server thread/INFO]: LuckMaster123 left the game
+[03:40:26] [User Authenticator #30/INFO]: UUID of player LuckMaster123 is 87211ff0-269b-4055-9e19-6ebd78327146
+[03:40:27] [Server thread/INFO]: LuckMaster123[/24.79.143.185:51634] logged in with entity id 137113 at (-3.699999988079071, 63.0, 69.47329620524643)
+[03:40:27] [Server thread/INFO]: LuckMaster123 joined the game
+[07:05:40] [Server thread/INFO]: LuckMaster123 lost connection: Timed out
+[07:05:40] [Server thread/INFO]: LuckMaster123 left the game
+[16:13:42] [Server thread/INFO]: com.mojang.authlib.GameProfile@46c5a6aa[id=<null>,name=LuckMaster123,properties={},legacy=false] (/24.79.143.185:57866) lost connection: Disconnected
+[16:13:53] [Server thread/INFO]: com.mojang.authlib.GameProfile@3ca0c050[id=<null>,name=LuckMaster123,properties={},legacy=false] (/24.79.143.185:57869) lost connection: Disconnected
+[16:17:14] [User Authenticator #31/INFO]: UUID of player LuckMaster123 is 87211ff0-269b-4055-9e19-6ebd78327146
+[16:17:14] [Server thread/INFO]: LuckMaster123[/24.79.143.185:58019] logged in with entity id 157272 at (-3.699999988079071, 63.0, 68.98809722390952)
+[16:17:14] [Server thread/INFO]: LuckMaster123 joined the game
+[16:34:15] [Server thread/INFO]: LuckMaster123 lost connection: Timed out
+[16:34:15] [Server thread/INFO]: LuckMaster123 left the game
+[17:12:50] [User Authenticator #32/INFO]: UUID of player LuckMaster123 is 87211ff0-269b-4055-9e19-6ebd78327146
+[17:12:50] [Server thread/INFO]: LuckMaster123[/24.79.143.185:64894] logged in with entity id 159327 at (-3.699999988079071, 63.0, 69.22250146972256)
+[17:12:50] [Server thread/INFO]: LuckMaster123 joined the game
+[17:15:14] [Server thread/INFO]: LuckMaster123 lost connection: Disconnected
+[17:15:14] [Server thread/INFO]: LuckMaster123 left the game
+[21:20:21] [User Authenticator #33/INFO]: UUID of player LuckMaster123 is 87211ff0-269b-4055-9e19-6ebd78327146
+[21:20:21] [Server thread/INFO]: LuckMaster123[/24.79.143.185:50483] logged in with entity id 159750 at (-3.2824516178919634, 63.0, 68.8996318933602)
+[21:20:21] [Server thread/INFO]: LuckMaster123 joined the game
+[22:04:01] [Server thread/INFO]: LuckMaster123 lost connection: Disconnected
+[22:04:01] [Server thread/INFO]: LuckMaster123 left the game
+[04:54:09] [User Authenticator #34/INFO]: UUID of player LuckMaster123 is 87211ff0-269b-4055-9e19-6ebd78327146
+[04:54:09] [Server thread/INFO]: LuckMaster123[/24.79.143.185:63697] logged in with entity id 165535 at (-69.87544472237884, 64.0, 52.890716177731655)
+[04:54:09] [Server thread/INFO]: LuckMaster123 joined the game
+[04:55:10] [Server thread/INFO]: LuckMaster123 lost connection: Disconnected
+[04:55:10] [Server thread/INFO]: LuckMaster123 left the game
+[20:51:58] [User Authenticator #35/INFO]: UUID of player LuckMaster123 is 87211ff0-269b-4055-9e19-6ebd78327146
+[20:51:58] [Server thread/INFO]: LuckMaster123[/24.79.143.185:51814] logged in with entity id 165716 at (-108.20406085340895, 45.0, -2.7669002706289754)
+[20:51:58] [Server thread/INFO]: LuckMaster123 joined the game
+[21:28:52] [Server thread/INFO]: LuckMaster123 lost connection: Disconnected
+[21:28:52] [Server thread/INFO]: LuckMaster123 left the game
+[04:58:04] [User Authenticator #36/INFO]: UUID of player LuckMaster123 is 87211ff0-269b-4055-9e19-6ebd78327146
+[04:58:04] [Server thread/INFO]: LuckMaster123[/24.79.143.185:56079] logged in with entity id 170017 at (-100.40322017435243, -6.0, 54.78939418957242)
+[04:58:04] [Server thread/INFO]: LuckMaster123 joined the game
+[04:59:05] [Server thread/INFO]: LuckMaster123 lost connection: Timed out
+[04:59:05] [Server thread/INFO]: LuckMaster123 left the game
+[04:59:05] [User Authenticator #37/INFO]: UUID of player LuckMaster123 is 87211ff0-269b-4055-9e19-6ebd78327146
+[04:59:05] [Server thread/INFO]: LuckMaster123[/24.79.143.185:56097] logged in with entity id 170165 at (-100.35273507420436, -9.0, 58.290966490167264)
+[04:59:05] [Server thread/INFO]: LuckMaster123 joined the game
+[05:14:07] [Server thread/INFO]: LuckMaster123 lost connection: Disconnected
+[05:14:07] [Server thread/INFO]: LuckMaster123 left the game
+[04:04:38] [User Authenticator #38/INFO]: UUID of player LuckMaster123 is 87211ff0-269b-4055-9e19-6ebd78327146
+[04:04:38] [Server thread/INFO]: LuckMaster123[/24.79.143.185:64261] logged in with entity id 172005 at (-72.61806456827318, 64.0, 45.82485026547456)
+[04:04:38] [Server thread/INFO]: LuckMaster123 joined the game
+[05:04:26] [Server thread/INFO]: LuckMaster123 lost connection: Disconnected
+[05:04:26] [Server thread/INFO]: LuckMaster123 left the game
+[01:20:55] [User Authenticator #39/INFO]: UUID of player LuckMaster123 is 87211ff0-269b-4055-9e19-6ebd78327146
+[01:20:55] [Server thread/INFO]: LuckMaster123[/24.79.143.185:58634] logged in with entity id 180339 at (-102.25633789541271, 48.0, -1.9546749673954094)
+[01:20:55] [Server thread/INFO]: LuckMaster123 joined the game
+[01:31:12] [Server thread/INFO]: LuckMaster123 lost connection: Disconnected
+[01:31:12] [Server thread/INFO]: LuckMaster123 left the game
+[00:05:07] [User Authenticator #40/INFO]: UUID of player LuckMaster123 is 87211ff0-269b-4055-9e19-6ebd78327146
+[00:05:07] [Server thread/INFO]: LuckMaster123[/24.79.143.185:50596] logged in with entity id 182018 at (-98.01832216626148, 67.0, 66.29934120750845)
+[00:05:07] [Server thread/INFO]: LuckMaster123 joined the game
+[00:05:28] [Server thread/INFO]: LuckMaster123 lost connection: Disconnected
+[00:05:28] [Server thread/INFO]: LuckMaster123 left the game
+[01:47:10] [User Authenticator #41/INFO]: UUID of player Never_Lucky123 is fdeaf439-d900-47e4-8e38-2d67e341266d
+[01:47:10] [Server thread/INFO]: Never_Lucky123[/104.243.105.89:18757] logged in with entity id 182102 at (-1.6955906790465896, 63.0, 68.69177052931016)
+[01:47:10] [Server thread/INFO]: Never_Lucky123 joined the game
+[01:53:57] [Server thread/INFO]: Never_Lucky123 lost connection: Disconnected
+[01:53:57] [Server thread/INFO]: Never_Lucky123 left the game
+[10:10:41] [User Authenticator #42/INFO]: UUID of player Eirik3179 is b12557ba-b4ab-471a-896d-56dc15763426
+[10:10:41] [Server thread/INFO]: Eirik3179[/109.201.152.161:33259] logged in with entity id 183263 at (5.5, 63.0, 22.5)
+[10:10:41] [Server thread/INFO]: Eirik3179 joined the game
+[10:10:44] [Server thread/INFO]: Eirik3179 lost connection: Disconnected
+[10:10:44] [Server thread/INFO]: Eirik3179 left the game
+[13:07:06] [User Authenticator #43/INFO]: UUID of player rkraupach4 is b4a98608-af56-4888-9d20-aa44d3e19244
+[13:07:06] [Server thread/INFO]: rkraupach4[/109.201.152.178:59193] logged in with entity id 183297 at (1.5, 63.0, 36.5)
+[13:07:06] [Server thread/INFO]: rkraupach4 joined the game
+[13:07:15] [Server thread/INFO]: rkraupach4 lost connection: Disconnected
+[13:07:15] [Server thread/INFO]: rkraupach4 left the game
+[05:46:21] [User Authenticator #44/INFO]: UUID of player Yagomf13 is 401c7f81-1b6c-471f-a5f3-d37e7c13bd8b
+[05:46:21] [Server thread/INFO]: Yagomf13[/109.201.152.172:42029] logged in with entity id 183328 at (3.5, 63.0, 37.5)
+[05:46:21] [Server thread/INFO]: Yagomf13 joined the game
+[05:46:25] [Server thread/INFO]: Yagomf13 lost connection: Disconnected
+[05:46:25] [Server thread/INFO]: Yagomf13 left the game
+[17:14:52] [User Authenticator #45/INFO]: UUID of player stoop83 is 6ad64b46-c350-42f1-badf-8a0756fc4039
+[17:14:52] [Server thread/INFO]: stoop83[/109.201.152.174:52868] logged in with entity id 183344 at (-8.5, 63.0, 33.5)
+[17:14:52] [Server thread/INFO]: stoop83 joined the game
+[17:14:55] [Server thread/INFO]: stoop83 lost connection: Disconnected
+[17:14:55] [Server thread/INFO]: stoop83 left the game
+[09:06:56] [User Authenticator #46/INFO]: UUID of player stormquartz is 78fa12e1-2319-46e2-930d-206c80c35fd8
+[09:06:56] [Server thread/INFO]: stormquartz[/77.247.181.212:50471] logged in with entity id 183359 at (-6.5, 63.0, 36.5)
+[09:06:56] [Server thread/INFO]: stormquartz joined the game
+[09:06:59] [Server thread/INFO]: stormquartz lost connection: Disconnected
+[09:06:59] [Server thread/INFO]: stormquartz left the game
+[12:29:17] [User Authenticator #47/INFO]: UUID of player babooni4d is 7d7ca133-8dec-445a-b132-303402f4372d
+[12:29:17] [Server thread/INFO]: babooni4d[/77.247.181.212:53253] logged in with entity id 183375 at (6.5, 63.0, 26.5)
+[12:29:17] [Server thread/INFO]: babooni4d joined the game
+[12:29:20] [Server thread/INFO]: babooni4d lost connection: Disconnected
+[12:29:20] [Server thread/INFO]: babooni4d left the game
+[06:38:44] [User Authenticator #48/INFO]: Disconnecting /77.247.181.211:39271: Failed to verify username!
+[06:38:44] [Server thread/INFO]: /77.247.181.211:39271 lost connection: Disconnected
+[06:38:44] [User Authenticator #48/ERROR]: Username 'Texas_Mercenaire' tried to join with an invalid session
+[14:06:59] [User Authenticator #49/INFO]: Disconnecting /77.247.181.214:33945: Failed to verify username!
+[14:06:59] [User Authenticator #49/ERROR]: Username 'R4cso' tried to join with an invalid session
+[14:06:59] [Server thread/INFO]: /77.247.181.214:33945 lost connection: Failed to verify username!
